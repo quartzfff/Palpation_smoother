@@ -43,3 +43,21 @@ target_include_directories(main_gtsam PRIVATE
 target_link_libraries(main_gtsam PRIVATE
     gtsam
 )
+
+add_executable(main_gtsam_bias
+    src/main_gtsam_bias.cpp
+    src/RobotArmModel.cpp
+    src/CsvLoader.cpp
+    src/CosseratSolver.cpp
+    src/Compliance.cpp
+    src/StaticsEvaluation.cpp
+)
+
+target_include_directories(main_gtsam_bias PRIVATE
+    ${PROJECT_SOURCE_DIR}/include
+    ${EIGEN3_INCLUDE_DIR}
+)
+
+target_link_libraries(main_gtsam_bias PRIVATE
+    gtsam
+)

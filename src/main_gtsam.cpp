@@ -17,6 +17,7 @@
 #include "RobotArmModel.hpp"
 #include "StaticsEvaluation.hpp"
 #include "factors/TipPoseTangentFactor.hpp"
+#include "factors/TipPoseTangentFactor2D.hpp"
 
 // ======================================================
 // Build robot model (same as test_fk)
@@ -50,6 +51,31 @@ static RobotArmModel buildRobot()
   static Tube tool(13.75, EI3, GJ3, Eigen::Vector3d::Zero());
 
   return RobotArmModel(outer, inner, &tool);
+}
+
+
+static Eigen::Matrix<double,3,2>
+computeV2(const RobotArmModel& robot,
+          const JointState& q,
+          double delta_fd)
+{
+  Wrench zero;
+  zero.force.setZero();
+  zero.moment.setZero();
+
+  FKResult Yprev = robot.forwardKinematics(q, zero);
+
+  StaticsResult ref =
+      evaluateStaticsAndCompliance(robot, q, zero, &Yprev, delta_fd);
+
+  Eigen::Matrix<double,6,3> J;
+  J.topRows<3>()    = ref.C.Cp;
+  J.bottomRows<3>() = ref.C.Ct;
+
+  Eigen::JacobiSVD<Eigen::Matrix<double,6,3>> svd(
+      J, Eigen::ComputeFullV);
+
+  return svd.matrixV().leftCols<2>();   // V(:,1:2)
 }
 
 // ======================================================
@@ -150,30 +176,32 @@ int main()
   auto measNoise = gtsam::noiseModel::Diagonal::Sigmas(sig);
 
   // Smoothness on force
-  auto smoothNoise = gtsam::noiseModel::Isotropic::Sigma(3, 0.5);  // N
+  auto smoothNoise = gtsam::noiseModel::Isotropic::Sigma(2, 0.5);  // N
 
   // Prior on F0
-  auto priorNoise  = gtsam::noiseModel::Isotropic::Sigma(3, 5.0);  // N
+  auto priorNoise  = gtsam::noiseModel::Isotropic::Sigma(2, 5.0);  // N
 
   const double delta_fd = 1e-7;
 
   for (size_t k = 0; k < data.size(); ++k) {
     gtsam::Key Fk = gtsam::Symbol('F', static_cast<uint64_t>(k));
 
-    graph.add(std::make_shared<TipPoseTangentFactor>(
+    graph.add(std::make_shared<TipPoseTangentFactor2D>(
         Fk, robot, data[k].q, data[k].p_meas, data[k].t_meas, delta_fd, measNoise));
 
-    initial.insert(Fk, gtsam::Vector3(0.0, 0.0, 0.0));
+    //initial.insert(Fk, gtsam::Vector3(0.0, 0.0, 0.0));
+    initial.insert(Fk, gtsam::Vector2(0.0, 0.0));
+
 
     if (k > 0) {
       gtsam::Key Fkm1 = gtsam::Symbol('F', static_cast<uint64_t>(k-1));
-      graph.add(gtsam::BetweenFactor<gtsam::Vector3>(
-          Fkm1, Fk, gtsam::Vector3(0.0, 0.0, 0.0), smoothNoise));
+      graph.add(gtsam::BetweenFactor<gtsam::Vector2>(
+          Fkm1, Fk, gtsam::Vector2(0.0, 0.0), smoothNoise));
     }
   }
 
-  graph.add(gtsam::PriorFactor<gtsam::Vector3>(
-      gtsam::Symbol('F', 0), gtsam::Vector3(0.0, 0.0, 0.0), priorNoise));
+  graph.add(gtsam::PriorFactor<gtsam::Vector2>(
+      gtsam::Symbol('F', 0), gtsam::Vector2(0.0, 0.0), priorNoise));
 
   // -----------------------------
   // Optimize
@@ -188,11 +216,29 @@ int main()
   // -----------------------------
   // Print results
   // -----------------------------
-  for (size_t k = 0; k < data.size(); ++k) {
-    gtsam::Key Fk = gtsam::Symbol('F', static_cast<uint64_t>(k));
-    gtsam::Vector3 Fest = result.at<gtsam::Vector3>(Fk);
-    std::cout << "F[" << k << "] = " << Fest.transpose() << " N\n";
-  }
+  // for (size_t k = 0; k < data.size(); ++k) {
+  //   gtsam::Key Fk = gtsam::Symbol('F', static_cast<uint64_t>(k));
+  //   gtsam::Vector3 Fest = result.at<gtsam::Vector3>(Fk);
+  //   std::cout << "F[" << k << "] = " << Fest.transpose() << " N\n";
+  // }
+
+
+for (size_t k = 0; k < data.size(); ++k) {
+  gtsam::Key Fk = gtsam::Symbol('F', static_cast<uint64_t>(k));
+
+  // 2D force coordinates (what GTSAM optimized)
+  gtsam::Vector2 f2 = result.at<gtsam::Vector2>(Fk);
+
+  // Recompute V2 for this configuration
+  Eigen::Matrix<double,3,2> V2 =
+      computeV2(robot, data[k].q, delta_fd);
+
+  // Reconstruct physical 3D force (MATLAB equivalent)
+  Eigen::Vector3d F = V2 * f2;
+
+  std::cout << "F[" << k << "] = " << F.transpose() << " N\n";
+}
+
 
   return 0;
 }
