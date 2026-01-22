@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/rk2_demo.dir/src/main.cpp.o -o rk2_demo  -Wl,-rpath,/usr/local/lib /usr/local/lib/libgtsam.so.4.3a1 /usr/lib/x86_64-linux-gnu/libtbb.so.12.11 /usr/lib/x86_64-linux-gnu/libtbbmalloc.so.2.11 /usr/local/lib/libmetis-gtsam.so -lm /usr/local/lib/libcephes-gtsam.so.1.0.0 

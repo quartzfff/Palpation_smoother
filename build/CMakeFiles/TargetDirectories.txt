@@ -1,4 +1,0 @@
-/home/yufei/code/rk2_tutorial/build/CMakeFiles/test_fk.dir
-/home/yufei/code/rk2_tutorial/build/CMakeFiles/main_gtsam.dir
-/home/yufei/code/rk2_tutorial/build/CMakeFiles/edit_cache.dir
-/home/yufei/code/rk2_tutorial/build/CMakeFiles/rebuild_cache.dir
