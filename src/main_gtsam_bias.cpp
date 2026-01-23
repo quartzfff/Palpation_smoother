@@ -5,6 +5,8 @@
 #include <algorithm>
 
 #include <Eigen/Dense>
+#include <fstream>
+
 
 #include <gtsam/nonlinear/NonlinearFactorGraph.h>
 #include <gtsam/nonlinear/Values.h>
@@ -70,7 +72,7 @@ int main()
   Eigen::Vector3d t_calib(0,0,0);
   Eigen::Vector3d p_offset_base(0,0,13.75);
 
-  const int stride = 10;
+  const int stride = 1;
 
   auto data = load_meas_csv(
       "tube2_hole0_down.csv",
@@ -198,6 +200,9 @@ int main()
   // Print reconstructed 3D forces (MATLAB equivalent)
   // =====================================================
   std::cout << "\nEstimated forces:\n";
+  std::ofstream fout("force_estimated.csv");
+  fout << "k,Fx,Fy,Fz\n";
+
 
   for (size_t k = 0; k < data.size(); ++k) {
 
@@ -217,6 +222,11 @@ int main()
 
     Eigen::Matrix<double,3,2> V2 = svd.matrixV().leftCols<2>();
     Eigen::Vector3d F = V2 * f2;
+      fout << k << ","
+       << F(0) << ","
+       << F(1) << ","
+       << F(2) << "\n";
+
 
     std::cout << "F[" << k << "] = "
               << F.transpose() << " N\n";
