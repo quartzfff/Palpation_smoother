@@ -61,3 +61,15 @@ target_include_directories(main_gtsam_bias PRIVATE
 target_link_libraries(main_gtsam_bias PRIVATE
     gtsam
 )
+
+add_executable(main_calibration
+  src/main_calibration.cpp
+  src/RobotArmModel.cpp
+  src/CosseratSolver.cpp
+  src/StaticsEvaluation.cpp
+  src/Compliance.cpp
+  src/TipPoseTangentCalibrationFactors.cpp
+)
+
+target_include_directories(main_calibration PRIVATE include)
+target_link_libraries(main_calibration gtsam Eigen3::Eigen)

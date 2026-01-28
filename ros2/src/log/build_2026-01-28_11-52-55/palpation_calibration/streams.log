@@ -1,0 +1,35 @@
+[0.368s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/src/palpation_calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/palpation_calibration build --build-base /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build install --record /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/install.log --single-version-externally-managed install_data
+[0.460s] running egg_info
+[0.460s] creating ../build/palpation_calibration/palpation_calibration.egg-info
+[0.465s] writing ../build/palpation_calibration/palpation_calibration.egg-info/PKG-INFO
+[0.465s] writing dependency_links to ../build/palpation_calibration/palpation_calibration.egg-info/dependency_links.txt
+[0.465s] writing requirements to ../build/palpation_calibration/palpation_calibration.egg-info/requires.txt
+[0.465s] writing top-level names to ../build/palpation_calibration/palpation_calibration.egg-info/top_level.txt
+[0.465s] writing manifest file '../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[0.476s] reading manifest file '../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] creating /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build
+[0.476s] creating /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib
+[0.477s] creating /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib/palpation_calibration
+[0.477s] copying palpation_calibration/kinematic_calibration_runner.py -> /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib/palpation_calibration
+[0.477s] copying palpation_calibration/__init__.py -> /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib/palpation_calibration
+[0.477s] running install
+[0.479s] running install_lib
+[0.485s] creating /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration
+[0.485s] copying /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib/palpation_calibration/kinematic_calibration_runner.py -> /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration
+[0.485s] copying /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build/lib/palpation_calibration/__init__.py -> /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration
+[0.485s] byte-compiling /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration/kinematic_calibration_runner.py to kinematic_calibration_runner.cpython-312.pyc
+[0.486s] byte-compiling /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration/__init__.py to __init__.cpython-312.pyc
+[0.486s] running install_data
+[0.486s] creating /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/share/ament_index
+[0.486s] creating /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/share/ament_index/resource_index
+[0.486s] creating /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/share/ament_index/resource_index/packages
+[0.486s] copying resource/palpation_calibration -> /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/share/ament_index/resource_index/packages
+[0.486s] copying package.xml -> /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/share/palpation_calibration
+[0.486s] running install_egg_info
+[0.492s] Copying ../build/palpation_calibration/palpation_calibration.egg-info to /home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info
+[0.492s] running install_scripts
+[0.533s] writing list of installed files to '/home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/install.log'
+[0.545s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/src/palpation_calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/reach-lab/Palpation_smoother/ros2/src/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/palpation_calibration build --build-base /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/build install --record /home/reach-lab/Palpation_smoother/ros2/src/build/palpation_calibration/install.log --single-version-externally-managed install_data

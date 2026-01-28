@@ -74,9 +74,13 @@ public:
     }
 
 
-    void setOuterKappa(double kappa_x) {
-        outer_.setKappa(Eigen::Vector3d(kappa_x, 0.0, 0.0));
+    // void setOuterKappa(double kappa_x) {
+    //     outer_.setKappa(Eigen::Vector3d(kappa_x, 0.0, 0.0));
+    // }
+    void setOuterKappaEq(double kappa_eq_x) {
+        outer_.setKappa(Eigen::Vector3d(kappa_eq_x, 0.0, 0.0));
     }
+
 
     void setOuterThetaOffset(double dtheta) {
         theta1_offset_ = dtheta;
