@@ -47,6 +47,7 @@ public:
     double EI() const { return EI_; }
     double GJ() const { return GJ_; }
     const Eigen::Vector3d& kappa() const { return kappa_; }
+    void setKappa(const Eigen::Vector3d& kappa) { kappa_ = kappa; }
 
 private:
     double length_;
@@ -66,6 +67,29 @@ public:
         const JointState& q,
         const Wrench& tip,
         const FKResult* prev = nullptr) const;
+        // ---- Calibration setters ----
+    // Set intrinsic curvature magnitude along +x in tube material frame
+    void setInnerKappaX(double kappa_x) {
+        inner_.setKappa(Eigen::Vector3d(kappa_x, 0.0, 0.0));
+    }
+
+
+    void setOuterKappa(double kappa_x) {
+        outer_.setKappa(Eigen::Vector3d(kappa_x, 0.0, 0.0));
+    }
+
+    void setOuterThetaOffset(double dtheta) {
+        theta1_offset_ = dtheta;
+    }
+
+    void setClearanceParams(double r_mm, double c_mm) {
+        r_mm_ = r_mm;
+        c_mm_ = c_mm;
+    }
+
+    double outerThetaOffset() const { return theta1_offset_; }
+    double clearance_r_mm()  const { return r_mm_; }
+    double clearance_c_mm()  const { return c_mm_; }
 
 private:
     // physical tubes
@@ -77,6 +101,8 @@ private:
     double alpha_b_;
     double alpha_t_;
     double Kg_;
+
+    double theta1_offset_ = 0.0;
 
     // clearance model
     double r_mm_;
