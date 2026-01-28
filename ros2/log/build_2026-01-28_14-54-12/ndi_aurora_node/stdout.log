@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node
+[ 10%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/DtlsConnection.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfContainer.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CombinedApi.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/BufferedReader.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ComConnection.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData3D.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/FileConnection.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Connection.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CryptoConnection.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfButton1D.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfComponent.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData6D.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfFrame.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfLineSeparation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfMarker3DError.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfSystemAlert.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/MarkerData.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/PortHandleInfo.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemAlert.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemCRC.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TcpConnection.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TlsConnection.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ToolData.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Transform.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/UdpSocket.cpp.o[0m
+[ 86%] [32m[1mLinking CXX static library libndi_api.a[0m
+[ 86%] Built target ndi_api
+[ 93%] [32mBuilding CXX object CMakeFiles/ndi_aurora_raw_node.dir/src/ndi_aurora_raw_node.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ndi_aurora_publisher.dir/src/ndi_aurora_publisher.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable ndi_aurora_raw_node[0m
+[ 96%] Built target ndi_aurora_raw_node
+[100%] [32m[1mLinking CXX executable ndi_aurora_publisher[0m
+[100%] Built target ndi_aurora_publisher
+-- Install configuration: ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/libndi_api.a
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node" to ""

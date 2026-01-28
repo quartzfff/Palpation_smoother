@@ -1,0 +1,5 @@
+source;share/ndi_aurora_node/local_setup.bash
+source;share/ndi_aurora_node/local_setup.dsv
+source;share/ndi_aurora_node/local_setup.ps1
+source;share/ndi_aurora_node/local_setup.sh
+source;share/ndi_aurora_node/local_setup.zsh

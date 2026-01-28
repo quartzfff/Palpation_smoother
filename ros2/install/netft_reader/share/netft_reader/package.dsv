@@ -1,0 +1,8 @@
+source;share/netft_reader/hook/cmake_prefix_path.ps1
+source;share/netft_reader/hook/cmake_prefix_path.dsv
+source;share/netft_reader/hook/cmake_prefix_path.sh
+source;share/netft_reader/local_setup.bash
+source;share/netft_reader/local_setup.dsv
+source;share/netft_reader/local_setup.ps1
+source;share/netft_reader/local_setup.sh
+source;share/netft_reader/local_setup.zsh

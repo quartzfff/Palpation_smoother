@@ -1,0 +1,74 @@
+[0.006s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/ros2/install/netft_reader
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.265s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.312s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.332s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.394s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.435s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.485s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.503s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.564s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system 
+[0.617s] -- Configuring done (0.6s)
+[0.631s] -- Generating done (0.0s)
+[0.636s] -- Build files have been written to: /home/reach-lab/Palpation_smoother/ros2/build/netft_reader
+[0.649s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/ros2/install/netft_reader
+[0.650s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[0.694s] [ 11%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_rdt_driver.cpp.o[0m
+[0.695s] [ 22%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o[0m
+[0.707s] [ 33%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o[0m
+[0.707s] [ 44%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_raw_node.cpp.o[0m
+[0.708s] [ 55%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[0.708s] [ 66%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[4.300s] [ 77%] [32m[1mLinking CXX executable netft_raw_node[0m
+[4.398s] [ 77%] Built target netft_raw_node
+[4.880s] [ 88%] [32m[1mLinking CXX executable netft_node[0m
+[4.961s] [100%] [32m[1mLinking CXX executable netft_baseraw_node[0m
+[4.985s] [100%] Built target netft_node
+[5.044s] [100%] Built target netft_baseraw_node
+[5.049s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[5.052s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/netft_reader
+[5.055s] -- Install configuration: ""
+[5.055s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node
+[5.056s] -- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node" to ""
+[5.056s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node
+[5.056s] -- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node" to ""
+[5.056s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node
+[5.057s] -- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node" to ""
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh
+[5.057s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+[5.058s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml
+[5.058s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/netft_reader

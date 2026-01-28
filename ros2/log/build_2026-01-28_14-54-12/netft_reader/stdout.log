@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/reach-lab/Palpation_smoother/ros2/build/netft_reader
+[ 11%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_rdt_driver.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_raw_node.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable netft_raw_node[0m
+[ 77%] Built target netft_raw_node
+[ 88%] [32m[1mLinking CXX executable netft_node[0m
+[100%] [32m[1mLinking CXX executable netft_baseraw_node[0m
+[100%] Built target netft_node
+[100%] Built target netft_baseraw_node
+-- Install configuration: ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml
