@@ -1,24 +1,32 @@
 cmake_minimum_required(VERSION 3.8)
 project(ndi_aurora_node)
 
-# Default to C++17
+# ======================================================
+# C++ standard
+# ======================================================
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
 endif()
 
-# Extra warnings for GCC/Clang
+# ======================================================
+# Compiler warnings
+# ======================================================
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU" OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# Find ament/ROS 2 packages
+# ======================================================
+# ROS 2 / dependencies
+# ======================================================
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(Eigen3 REQUIRED NO_MODULE)
 
-# Build the NDI API static library
+# ======================================================
+# Build NDI API static library
+# ======================================================
 add_library(ndi_api STATIC
   ndi_lib/src/BufferedReader.cpp
   ndi_lib/src/CombinedApi.cpp
@@ -47,23 +55,18 @@ add_library(ndi_api STATIC
   ndi_lib/src/UdpSocket.cpp
 )
 
-# Set include directories for ndi_api
 target_include_directories(ndi_api PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/ndi_lib/include>
   $<INSTALL_INTERFACE:include/ndi_lib>
 )
 
-# Link Eigen to ndi_api
 target_link_libraries(ndi_api PUBLIC Eigen3::Eigen)
 
-# Build the ndi_aurora_publisher executable
+# ======================================================
+# ndi_aurora_publisher node
+# ======================================================
 add_executable(ndi_aurora_publisher
   src/ndi_aurora_publisher.cpp
-)
-
-target_include_directories(ndi_aurora_publisher PRIVATE
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  ${EIGEN3_INCLUDE_DIRS}
 )
 
 ament_target_dependencies(ndi_aurora_publisher
@@ -77,14 +80,11 @@ target_link_libraries(ndi_aurora_publisher
   Eigen3::Eigen
 )
 
-# Build the new raw pose publisher executable
+# ======================================================
+# ndi_aurora_raw_node
+# ======================================================
 add_executable(ndi_aurora_raw_node
   src/ndi_aurora_raw_node.cpp
-)
-
-target_include_directories(ndi_aurora_raw_node PRIVATE
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  ${EIGEN3_INCLUDE_DIRS}
 )
 
 ament_target_dependencies(ndi_aurora_raw_node
@@ -98,7 +98,9 @@ target_link_libraries(ndi_aurora_raw_node
   Eigen3::Eigen
 )
 
-# Install the library
+# ======================================================
+# Install
+# ======================================================
 install(TARGETS ndi_api
   EXPORT export_${PROJECT_NAME}
   ARCHIVE DESTINATION lib
@@ -106,24 +108,21 @@ install(TARGETS ndi_api
   RUNTIME DESTINATION bin
 )
 
-# Install the executables
 install(TARGETS
   ndi_aurora_publisher
   ndi_aurora_raw_node
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
-# Install header files
-install(DIRECTORY include/
-  DESTINATION include
-)
-
+# Install NDI headers (the only real headers)
 install(DIRECTORY ndi_lib/include/
   DESTINATION include/ndi_lib
 )
 
-# Export package metadata
-ament_export_include_directories(include)
+# ======================================================
+# Export
+# ======================================================
+ament_export_include_directories(include/ndi_lib)
 ament_export_libraries(ndi_api)
 ament_export_dependencies(
   rclcpp

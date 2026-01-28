@@ -1,0 +1,117 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node
+[ 86%] Built target ndi_api
+[ 93%] [32mBuilding CXX object CMakeFiles/ndi_aurora_raw_node.dir/src/ndi_aurora_raw_node.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ndi_aurora_publisher.dir/src/ndi_aurora_publisher.cpp.o[0m
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In constructor ‘[01m[KNDIRawPoseNode::[01;32m[KNDIRawPoseNode[m[K()[m[K’:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:41:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   41 |     if ([01;35m[Ktool_index_ >= enabledTools_.size()[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In lambda function:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:62:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |         if ([01;35m[Ktool_index_ >= tools.size()[m[K || tools[tool_index_].transform.isMissing()) {
+      |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In constructor ‘[01m[KNDIRelativePoseNode::[01;32m[KNDIRelativePoseNode[m[K()[m[K’:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:139:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KNDIRelativePoseNode::file_index_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  139 |   std::atomic<int> [01;35m[Kfile_index_[m[K;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:136:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<bool> NDIRelativePoseNode::has_initial_pose_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  136 |   std::atomic<bool> [01;35m[Khas_initial_pose_[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:22:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |   [01;35m[KNDIRelativePoseNode[m[K()
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:45:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   45 |     if ([01;35m[KenabledTools_.size() <= tool_index[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In lambda function:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:67:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |         if ([01;35m[Ktool_index >= tools.size()[m[K || tools[tool_index].transform.isMissing()) {
+      |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:3[m[K:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  426 | static const char* [01;35m[KerrorStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  415 | static const char* [01;35m[KwarningStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:5[m[K:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  426 | static const char* [01;35m[KerrorStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  415 | static const char* [01;35m[KwarningStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 96%] [32m[1mLinking CXX executable ndi_aurora_raw_node[0m
+[ 96%] Built target ndi_aurora_raw_node
+[100%] [32m[1mLinking CXX executable ndi_aurora_publisher[0m
+[100%] Built target ndi_aurora_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/libndi_api.a
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node
+-- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node" to ""
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/DtlsConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ComConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfFrame.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/BufferedReader.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfComponent.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CombinedApi.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfMarker3DError.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfButton1D.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Connection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemAlert.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CryptoConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/MarkerData.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ToolData.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/UdpSocket.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfSystemAlert.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/FileConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemCRC.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TcpConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfContainer.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData3D.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfLineSeparation.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/PortHandleInfo.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData6D.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Transform.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TlsConnection.h
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/package_run_dependencies/ndi_aurora_node
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/parent_prefix_path/ndi_aurora_node
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.bash
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.sh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.zsh
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/packages/ndi_aurora_node
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport-noconfig.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig-version.cmake
+-- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.xml

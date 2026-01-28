@@ -1,0 +1,41 @@
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In constructor ‘[01m[KNDIRawPoseNode::[01;32m[KNDIRawPoseNode[m[K()[m[K’:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:41:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   41 |     if ([01;35m[Ktool_index_ >= enabledTools_.size()[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In lambda function:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:62:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |         if ([01;35m[Ktool_index_ >= tools.size()[m[K || tools[tool_index_].transform.isMissing()) {
+      |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In constructor ‘[01m[KNDIRelativePoseNode::[01;32m[KNDIRelativePoseNode[m[K()[m[K’:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:139:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KNDIRelativePoseNode::file_index_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  139 |   std::atomic<int> [01;35m[Kfile_index_[m[K;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:136:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<bool> NDIRelativePoseNode::has_initial_pose_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  136 |   std::atomic<bool> [01;35m[Khas_initial_pose_[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:22:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |   [01;35m[KNDIRelativePoseNode[m[K()
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:45:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   45 |     if ([01;35m[KenabledTools_.size() <= tool_index[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In lambda function:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:67:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |         if ([01;35m[Ktool_index >= tools.size()[m[K || tools[tool_index].transform.isMissing()) {
+      |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:3[m[K:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  426 | static const char* [01;35m[KerrorStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  415 | static const char* [01;35m[KwarningStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:5[m[K:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  426 | static const char* [01;35m[KerrorStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/reach-lab/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  415 | static const char* [01;35m[KwarningStrings[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K

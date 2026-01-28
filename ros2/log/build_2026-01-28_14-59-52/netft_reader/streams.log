@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[0.040s] [ 66%] Built target netft_node
+[0.040s] [100%] Built target netft_baseraw_node
+[0.040s] [100%] Built target netft_raw_node
+[0.103s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[0.107s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/netft_reader
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node
+[0.110s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node
+[0.110s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node
+[0.110s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh
+[0.111s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv
+[0.111s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv
+[0.112s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+[0.112s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+[0.112s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+[0.112s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml
+[0.113s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/netft_reader
