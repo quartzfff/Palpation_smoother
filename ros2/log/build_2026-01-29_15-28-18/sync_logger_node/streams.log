@@ -1,0 +1,60 @@
+[0.019s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.240s] -- The CXX compiler identification is GNU 13.3.0
+[0.271s] -- Detecting C compiler ABI info
+[0.427s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.446s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.654s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.654s] -- Detecting CXX compile features
+[0.655s] -- Detecting CXX compile features - done
+[0.660s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.946s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.133s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.203s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.226s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.425s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.431s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.572s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.611s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.792s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.826s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.884s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.934s] -- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)
+[2.104s] -- Configuring done (2.1s)
+[2.124s] -- Generating done (0.0s)
+[2.130s] -- Build files have been written to: /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node
+[2.147s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node
+[2.149s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node -- -j12 -l12
+[2.236s] [ 50%] [32mBuilding CXX object CMakeFiles/sync_logger_node.dir/src/sync_logger_node.cpp.o[0m
+[21.767s] [100%] [32m[1mLinking CXX executable sync_logger_node[0m
+[22.456s] [100%] Built target sync_logger_node
+[22.477s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node -- -j12 -l12
+[22.479s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node
+[22.493s] -- Install configuration: ""
+[22.495s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/lib/sync_logger_node/sync_logger_node
+[22.505s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/lib/sync_logger_node/sync_logger_node" to ""
+[22.505s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node//launch
+[22.505s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node//launch/multi_sensor_logger_launch.py
+[22.506s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/package_run_dependencies/sync_logger_node
+[22.506s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/parent_prefix_path/sync_logger_node
+[22.506s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.sh
+[22.506s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.dsv
+[22.506s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/path.sh
+[22.507s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/path.dsv
+[22.507s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.bash
+[22.507s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.sh
+[22.507s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.zsh
+[22.507s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.dsv
+[22.508s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/package.dsv
+[22.508s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/packages/sync_logger_node
+[22.508s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig.cmake
+[22.509s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig-version.cmake
+[22.509s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/package.xml
+[22.511s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node

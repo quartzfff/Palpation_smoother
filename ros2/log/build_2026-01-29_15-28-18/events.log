@@ -1,0 +1,1148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (ndi_aurora_node) JobQueued: {'identifier': 'ndi_aurora_node', 'dependencies': OrderedDict()}
+[0.000229] (netft_reader) JobQueued: {'identifier': 'netft_reader', 'dependencies': OrderedDict()}
+[0.000256] (palpation_calibration) JobQueued: {'identifier': 'palpation_calibration', 'dependencies': OrderedDict()}
+[0.000275] (sync_logger_node) JobQueued: {'identifier': 'sync_logger_node', 'dependencies': OrderedDict({'ndi_aurora_node': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node'})}
+[0.000937] (ndi_aurora_node) JobStarted: {'identifier': 'ndi_aurora_node'}
+[0.014324] (netft_reader) JobStarted: {'identifier': 'netft_reader'}
+[0.023077] (palpation_calibration) JobStarted: {'identifier': 'palpation_calibration'}
+[0.039404] (ndi_aurora_node) JobProgress: {'identifier': 'ndi_aurora_node', 'progress': 'cmake'}
+[0.040354] (ndi_aurora_node) Command: {'cmd': ['/usr/bin/cmake', '/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node', '-DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[0.045401] (netft_reader) JobProgress: {'identifier': 'netft_reader', 'progress': 'cmake'}
+[0.046370] (netft_reader) Command: {'cmd': ['/usr/bin/cmake', '/home/yufei/code/Palpation_smoother/ros2/src/netft_reader', '-DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/netft_reader'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[0.099690] (-) TimerEvent: {}
+[0.167174] (ndi_aurora_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.177105] (netft_reader) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199878] (-) TimerEvent: {}
+[0.299815] (netft_reader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.300241] (-) TimerEvent: {}
+[0.315770] (ndi_aurora_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.342201] (netft_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.355827] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400445] (-) TimerEvent: {}
+[0.500923] (-) TimerEvent: {}
+[0.541494] (netft_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.556427] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.572784] (netft_reader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.573458] (netft_reader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.574613] (netft_reader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.585263] (ndi_aurora_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.585832] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.586897] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.598222] (netft_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601107] (-) TimerEvent: {}
+[0.610198] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701302] (-) TimerEvent: {}
+[0.801824] (-) TimerEvent: {}
+[0.832673] (netft_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.849280] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.862861] (netft_reader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.863587] (netft_reader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.865071] (netft_reader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.875833] (netft_reader) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.878568] (ndi_aurora_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.879285] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.880529] (ndi_aurora_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.887029] (ndi_aurora_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.902022] (-) TimerEvent: {}
+[1.002474] (-) TimerEvent: {}
+[1.102912] (-) TimerEvent: {}
+[1.203433] (-) TimerEvent: {}
+[1.251013] (ndi_aurora_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.251512] (netft_reader) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.303607] (-) TimerEvent: {}
+[1.404093] (-) TimerEvent: {}
+[1.504530] (-) TimerEvent: {}
+[1.510296] (ndi_aurora_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.539881] (netft_reader) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.604701] (-) TimerEvent: {}
+[1.640061] (ndi_aurora_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.652788] (netft_reader) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.681739] (ndi_aurora_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.690006] (netft_reader) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.704854] (-) TimerEvent: {}
+[1.734952] (ndi_aurora_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.735580] (netft_reader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.798742] (netft_reader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801567] (ndi_aurora_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.805019] (-) TimerEvent: {}
+[1.899167] (palpation_calibration) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/palpation_calibration', 'build', '--build-base', '/home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build', 'install', '--record', '/home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.905192] (-) TimerEvent: {}
+[2.005677] (-) TimerEvent: {}
+[2.023233] (netft_reader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.034487] (netft_reader) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.044063] (ndi_aurora_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.053575] (ndi_aurora_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.105869] (-) TimerEvent: {}
+[2.206388] (-) TimerEvent: {}
+[2.252912] (netft_reader) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.256770] (ndi_aurora_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.306603] (-) TimerEvent: {}
+[2.314222] (netft_reader) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.316599] (ndi_aurora_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.377453] (netft_reader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.378578] (ndi_aurora_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.406776] (-) TimerEvent: {}
+[2.437994] (palpation_calibration) StdoutLine: {'line': b'running egg_info\n'}
+[2.438731] (palpation_calibration) StdoutLine: {'line': b'creating ../../build/palpation_calibration/palpation_calibration.egg-info\n'}
+[2.474043] (palpation_calibration) StdoutLine: {'line': b'writing ../../build/palpation_calibration/palpation_calibration.egg-info/PKG-INFO\n'}
+[2.474556] (palpation_calibration) StdoutLine: {'line': b'writing dependency_links to ../../build/palpation_calibration/palpation_calibration.egg-info/dependency_links.txt\n'}
+[2.474989] (palpation_calibration) StdoutLine: {'line': b'writing entry points to ../../build/palpation_calibration/palpation_calibration.egg-info/entry_points.txt\n'}
+[2.475378] (palpation_calibration) StdoutLine: {'line': b'writing requirements to ../../build/palpation_calibration/palpation_calibration.egg-info/requires.txt\n'}
+[2.475569] (palpation_calibration) StdoutLine: {'line': b'writing top-level names to ../../build/palpation_calibration/palpation_calibration.egg-info/top_level.txt\n'}
+[2.475743] (palpation_calibration) StdoutLine: {'line': b"writing manifest file '../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'\n"}
+[2.506947] (-) TimerEvent: {}
+[2.546781] (palpation_calibration) StdoutLine: {'line': b"reading manifest file '../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'\n"}
+[2.548278] (palpation_calibration) StdoutLine: {'line': b"writing manifest file '../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'\n"}
+[2.548778] (palpation_calibration) StdoutLine: {'line': b'running build\n'}
+[2.549066] (palpation_calibration) StdoutLine: {'line': b'running build_py\n'}
+[2.549435] (palpation_calibration) StdoutLine: {'line': b'creating /home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build\n'}
+[2.549762] (palpation_calibration) StdoutLine: {'line': b'creating /home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build/lib\n'}
+[2.549983] (palpation_calibration) StdoutLine: {'line': b'creating /home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build/lib/palpation_calibration\n'}
+[2.550210] (palpation_calibration) StdoutLine: {'line': b'copying palpation_calibration/__init__.py -> /home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build/lib/palpation_calibration\n'}
+[2.550395] (palpation_calibration) StdoutLine: {'line': b'copying palpation_calibration/kinematic_calibration_runner.py -> /home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/build/lib/palpation_calibration\n'}
+[2.550574] (palpation_calibration) StdoutLine: {'line': b'running install\n'}
+[2.562827] (palpation_calibration) StdoutLine: {'line': b'running install_lib\n'}
+[2.597579] (palpation_calibration) StdoutLine: {'line': b'running install_data\n'}
+[2.598051] (palpation_calibration) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.607094] (-) TimerEvent: {}
+[2.633221] (ndi_aurora_node) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.633859] (netft_reader) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.634208] (palpation_calibration) StdoutLine: {'line': b"removing '/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.634449] (palpation_calibration) StdoutLine: {'line': b'Copying ../../build/palpation_calibration/palpation_calibration.egg-info to /home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info\n'}
+[2.635352] (palpation_calibration) StdoutLine: {'line': b'running install_scripts\n'}
+[2.707355] (-) TimerEvent: {}
+[2.758320] (netft_reader) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.758922] (ndi_aurora_node) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.807545] (-) TimerEvent: {}
+[2.886016] (palpation_calibration) StdoutLine: {'line': b'Installing calibration_runner script to /home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration/lib/palpation_calibration\n'}
+[2.886665] (palpation_calibration) StdoutLine: {'line': b"writing list of installed files to '/home/yufei/code/Palpation_smoother/ros2/build/palpation_calibration/install.log'\n"}
+[2.907712] (-) TimerEvent: {}
+[2.953687] (palpation_calibration) CommandEnded: {'returncode': 0}
+[2.981094] (palpation_calibration) JobEnded: {'identifier': 'palpation_calibration', 'rc': 0}
+[3.007903] (-) TimerEvent: {}
+[3.072529] (ndi_aurora_node) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.084067] (netft_reader) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system \n'}
+[3.106148] (ndi_aurora_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.108066] (-) TimerEvent: {}
+[3.120607] (ndi_aurora_node) StdoutLine: {'line': b'-- Build files have been written to: /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node\n'}
+[3.138875] (ndi_aurora_node) CommandEnded: {'returncode': 0}
+[3.140037] (ndi_aurora_node) JobProgress: {'identifier': 'ndi_aurora_node', 'progress': 'build'}
+[3.141839] (ndi_aurora_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', '--', '-j12', '-l12'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[3.208223] (-) TimerEvent: {}
+[3.255426] (ndi_aurora_node) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CombinedApi.cpp.o\x1b[0m\n'}
+[3.256201] (ndi_aurora_node) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/BufferedReader.cpp.o\x1b[0m\n'}
+[3.258684] (ndi_aurora_node) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Connection.cpp.o\x1b[0m\n'}
+[3.259325] (ndi_aurora_node) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/DtlsConnection.cpp.o\x1b[0m\n'}
+[3.259809] (ndi_aurora_node) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/FileConnection.cpp.o\x1b[0m\n'}
+[3.260181] (ndi_aurora_node) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfButton1D.cpp.o\x1b[0m\n'}
+[3.262602] (ndi_aurora_node) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CryptoConnection.cpp.o\x1b[0m\n'}
+[3.263240] (ndi_aurora_node) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ComConnection.cpp.o\x1b[0m\n'}
+[3.269141] (ndi_aurora_node) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfComponent.cpp.o\x1b[0m\n'}
+[3.270708] (ndi_aurora_node) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData3D.cpp.o\x1b[0m\n'}
+[3.271313] (ndi_aurora_node) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfContainer.cpp.o\x1b[0m\n'}
+[3.277422] (ndi_aurora_node) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData6D.cpp.o\x1b[0m\n'}
+[3.309123] (-) TimerEvent: {}
+[3.334908] (ndi_aurora_node) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfFrame.cpp.o\x1b[0m\n'}
+[3.377720] (ndi_aurora_node) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfLineSeparation.cpp.o\x1b[0m\n'}
+[3.401192] (netft_reader) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.404759] (ndi_aurora_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfMarker3DError.cpp.o\x1b[0m\n'}
+[3.409305] (-) TimerEvent: {}
+[3.504071] (netft_reader) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.511153] (-) TimerEvent: {}
+[3.561518] (netft_reader) StdoutLine: {'line': b'-- Build files have been written to: /home/yufei/code/Palpation_smoother/ros2/build/netft_reader\n'}
+[3.615175] (-) TimerEvent: {}
+[3.666707] (netft_reader) CommandEnded: {'returncode': 0}
+[3.674154] (netft_reader) JobProgress: {'identifier': 'netft_reader', 'progress': 'build'}
+[3.683319] (netft_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', '--', '-j12', '-l12'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[3.715416] (-) TimerEvent: {}
+[3.817259] (-) TimerEvent: {}
+[3.920179] (-) TimerEvent: {}
+[4.026212] (-) TimerEvent: {}
+[4.089416] (netft_reader) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o\x1b[0m\n'}
+[4.091721] (netft_reader) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_rdt_driver.cpp.o\x1b[0m\n'}
+[4.116110] (netft_reader) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_raw_node.cpp.o\x1b[0m\n'}
+[4.127185] (-) TimerEvent: {}
+[4.154415] (netft_reader) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_rdt_driver.cpp.o\x1b[0m\n'}
+[4.155301] (netft_reader) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o\x1b[0m\n'}
+[4.155858] (netft_reader) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_rdt_driver.cpp.o\x1b[0m\n'}
+[4.228142] (-) TimerEvent: {}
+[4.332616] (-) TimerEvent: {}
+[4.436835] (-) TimerEvent: {}
+[4.513942] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/FileConnection.cpp:40\x1b[m\x1b[K:\n'}
+[4.514687] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int FileConnection::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(const char*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.515005] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.515373] (ndi_aurora_node) StderrLine: {'line': b'   81 |         int write( \x1b[01;35m\x1b[Kconst char* buffer\x1b[m\x1b[K, int length ) const { return 0; }\n'}
+[4.515659] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.515958] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.516351] (ndi_aurora_node) StderrLine: {'line': b'   81 |         int write( const char* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return 0; }\n'}
+[4.516613] (ndi_aurora_node) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.516874] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int FileConnection::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(byte_t*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.525631] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.526177] (ndi_aurora_node) StderrLine: {'line': b'   86 |         int write( \x1b[01;35m\x1b[Kbyte_t* buffer\x1b[m\x1b[K, int length ) const { return 0; }\n'}
+[4.526535] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.526839] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.527185] (ndi_aurora_node) StderrLine: {'line': b'   86 |         int write( byte_t* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return 0; }\n'}
+[4.527455] (ndi_aurora_node) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.540133] (-) TimerEvent: {}
+[4.640924] (-) TimerEvent: {}
+[4.745165] (-) TimerEvent: {}
+[4.816276] (ndi_aurora_node) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfSystemAlert.cpp.o\x1b[0m\n'}
+[4.848201] (-) TimerEvent: {}
+[4.949213] (-) TimerEvent: {}
+[5.047812] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string BufferedReader::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.048564] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:52:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.054778] (-) TimerEvent: {}
+[5.055301] (ndi_aurora_node) StderrLine: {'line': b'   52 |     for ( int i = 0; \x1b[01;35m\x1b[Ki < buffer_.size()\x1b[m\x1b[K; i++)\n'}
+[5.055856] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.064192] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BufferedReader::\x1b[01;32m\x1b[KskipBytes\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.064943] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:85:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.065417] (ndi_aurora_node) StderrLine: {'line': b'   85 |     if (\x1b[01;35m\x1b[KcurrentIndex_ + numBytes >= buffer_.size()\x1b[m\x1b[K)\n'}
+[5.065780] (ndi_aurora_node) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.155091] (-) TimerEvent: {}
+[5.258494] (-) TimerEvent: {}
+[5.287921] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfButton1D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfButton1D::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.293787] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfButton1D.cpp:70:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.294275] (ndi_aurora_node) StderrLine: {'line': b'   70 |         for ( int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; i++)\n'}
+[5.294641] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.358715] (-) TimerEvent: {}
+[5.409176] (ndi_aurora_node) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/MarkerData.cpp.o\x1b[0m\n'}
+[5.459032] (-) TimerEvent: {}
+[5.561415] (-) TimerEvent: {}
+[5.664436] (-) TimerEvent: {}
+[5.725870] (ndi_aurora_node) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/PortHandleInfo.cpp.o\x1b[0m\n'}
+[5.763410] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData6D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfData6D::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.764075] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData6D.cpp:82:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Transform>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.764436] (-) TimerEvent: {}
+[5.764795] (ndi_aurora_node) StderrLine: {'line': b'   82 |     for ( int i = 0; \x1b[01;35m\x1b[Ki < toolTransforms.size()\x1b[m\x1b[K; i++)\n'}
+[5.765132] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.858096] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual GbfFrame::\x1b[01;32m\x1b[K~GbfFrame\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.858759] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:57:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfFrameDataItem*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.859137] (ndi_aurora_node) StderrLine: {'line': b'   57 |   for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; i++)\n'}
+[5.859429] (ndi_aurora_node) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.869261] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData> GbfFrame::\x1b[01;32m\x1b[KgetToolData\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.870024] (-) TimerEvent: {}
+[5.870436] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:74:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfFrameDataItem*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.870873] (ndi_aurora_node) StderrLine: {'line': b'   74 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; i++)\n'}
+[5.871188] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.871445] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:77:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfComponent*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.871699] (ndi_aurora_node) StderrLine: {'line': b'   77 |         for (int c = 0; \x1b[01;35m\x1b[Kc < data[i]->frameData->components.size()\x1b[m\x1b[K; c++)\n'}
+[5.871963] (ndi_aurora_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.878876] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:84:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Transform>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.879299] (ndi_aurora_node) StderrLine: {'line': b'   84 |                 for (int j = 0; \x1b[01;35m\x1b[Kj < data6D->toolTransforms.size()\x1b[m\x1b[K; j++)\n'}
+[5.879548] (ndi_aurora_node) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.883131] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:88:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.883815] (ndi_aurora_node) StderrLine: {'line': b'   88 |                     for (int t =0; \x1b[01;35m\x1b[Kt < tools.size()\x1b[m\x1b[K; t++)\n'}
+[5.887788] (ndi_aurora_node) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.888293] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:117:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<short unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.888641] (ndi_aurora_node) StderrLine: {'line': b'  117 |                 for (int j = 0; \x1b[01;35m\x1b[Kj < data3D->toolHandles.size()\x1b[m\x1b[K; j++)\n'}
+[5.888954] (ndi_aurora_node) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.889299] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:121:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.889629] (ndi_aurora_node) StderrLine: {'line': b'  121 |                     for (int t = 0; \x1b[01;35m\x1b[Kt < tools.size()\x1b[m\x1b[K; t++)\n'}
+[5.889938] (ndi_aurora_node) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.890268] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:154:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.897802] (ndi_aurora_node) StderrLine: {'line': b'  154 |                     for (int t = 0; \x1b[01;35m\x1b[Kt < tools.size()\x1b[m\x1b[K; t++)\n'}
+[5.898163] (ndi_aurora_node) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.898429] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:158:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtoolExists\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.898689] (ndi_aurora_node) StderrLine: {'line': b'  158 |                             bool \x1b[01;35m\x1b[KtoolExists\x1b[m\x1b[K = false;\n'}
+[5.898939] (ndi_aurora_node) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.899218] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:188:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.899494] (ndi_aurora_node) StderrLine: {'line': b'  188 |                 for (int t = 0; \x1b[01;35m\x1b[Kt < tools.size()\x1b[m\x1b[K; t++)\n'}
+[5.899746] (ndi_aurora_node) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.906197] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:187:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtoolExists\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.906851] (ndi_aurora_node) StderrLine: {'line': b'  187 |                 bool \x1b[01;35m\x1b[KtoolExists\x1b[m\x1b[K = false;\n'}
+[5.907225] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.907500] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfFrame::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.907774] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:207:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfFrameDataItem*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.908100] (ndi_aurora_node) StderrLine: {'line': b'  207 |     for (int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; i++)\n'}
+[5.908379] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.914232] (ndi_aurora_node) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemAlert.cpp.o\x1b[0m\n'}
+[5.925153] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfData3D::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.925911] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:89:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<short unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.926419] (ndi_aurora_node) StderrLine: {'line': b'   89 |     for (int toolIndex = 0; \x1b[01;35m\x1b[KtoolIndex < toolHandles.size()\x1b[m\x1b[K; toolIndex++)\n'}
+[5.926778] (ndi_aurora_node) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.928906] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:94:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<MarkerData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.929645] (ndi_aurora_node) StderrLine: {'line': b'   94 |         for ( int i = 0; \x1b[01;35m\x1b[Ki < markers[toolIndex].size()\x1b[m\x1b[K; i++)\n'}
+[5.930170] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.971484] (-) TimerEvent: {}
+[5.998163] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGbfLineSeparation::\x1b[01;32m\x1b[KGbfLineSeparation\x1b[m\x1b[K(BufferedReader&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.002599] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:66:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.003138] (ndi_aurora_node) StderrLine: {'line': b'   66 |             while ( \x1b[01;35m\x1b[KlistLineSeparations.size() <= markerIndex\x1b[m\x1b[K )\n'}
+[6.003538] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.003865] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:51\x1b[m\x1b[K:\n'}
+[6.004339] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int UdpSocket::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(const char*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.004697] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.007084] (ndi_aurora_node) StderrLine: {'line': b'  117 |     virtual int write( \x1b[01;35m\x1b[Kconst char* buffer\x1b[m\x1b[K, int length ) const { return -1; };\n'}
+[6.007644] (ndi_aurora_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.008062] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.008596] (ndi_aurora_node) StderrLine: {'line': b'  117 |     virtual int write( const char* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return -1; };\n'}
+[6.009027] (ndi_aurora_node) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.009461] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int UdpSocket::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(byte_t*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.009881] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.013815] (ndi_aurora_node) StderrLine: {'line': b'  120 |     virtual int write( \x1b[01;35m\x1b[Kbyte_t* buffer\x1b[m\x1b[K, int length ) const { return -1; };\n'}
+[6.014251] (ndi_aurora_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.014578] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.014888] (ndi_aurora_node) StderrLine: {'line': b'  120 |     virtual int write( byte_t* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return -1; };\n'}
+[6.015273] (ndi_aurora_node) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.015634] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:52\x1b[m\x1b[K:\n'}
+[6.015961] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int FileConnection::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(const char*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.016470] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.016811] (ndi_aurora_node) StderrLine: {'line': b'   81 |         int write( \x1b[01;35m\x1b[Kconst char* buffer\x1b[m\x1b[K, int length ) const { return 0; }\n'}
+[6.027121] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.027683] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.028056] (ndi_aurora_node) StderrLine: {'line': b'   81 |         int write( const char* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return 0; }\n'}
+[6.028421] (ndi_aurora_node) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.028798] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int FileConnection::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(byte_t*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.031837] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.035717] (ndi_aurora_node) StderrLine: {'line': b'   86 |         int write( \x1b[01;35m\x1b[Kbyte_t* buffer\x1b[m\x1b[K, int length ) const { return 0; }\n'}
+[6.036194] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.036522] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.036851] (ndi_aurora_node) StderrLine: {'line': b'   86 |         int write( byte_t* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return 0; }\n'}
+[6.037206] (ndi_aurora_node) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.037551] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfLineSeparation::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.040436] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:87:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<short unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.041171] (ndi_aurora_node) StderrLine: {'line': b'   87 |     for ( int toolIndex = 0; \x1b[01;35m\x1b[KtoolIndex < toolHandles.size()\x1b[m\x1b[K; toolIndex++ )\n'}
+[6.041536] (ndi_aurora_node) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.041837] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:91:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.042210] (ndi_aurora_node) StderrLine: {'line': b'   91 |         for ( int i = 0; \x1b[01;35m\x1b[Ki < lineSeparations[toolIndex].size()\x1b[m\x1b[K; i++ )\n'}
+[6.042559] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.042845] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CombinedApi::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(std::string, Protocol, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.043253] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:73:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcipher\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.043625] (ndi_aurora_node) StderrLine: {'line': b'   73 | int CombinedApi::connect(std::string hostname, Protocol protocol, \x1b[01;35m\x1b[Kstd::string cipher\x1b[m\x1b[K)\n'}
+[6.043947] (ndi_aurora_node) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.048594] (ndi_aurora_node) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemCRC.cpp.o\x1b[0m\n'}
+[6.073212] (-) TimerEvent: {}
+[6.136312] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CombinedApi::\x1b[01;32m\x1b[KstartStreaming\x1b[m\x1b[K(std::string, std::string, Protocol, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.137312] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:393:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcipher\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.137770] (ndi_aurora_node) StderrLine: {'line': b'  393 | int CombinedApi::startStreaming(const std::string cmd, const std::string streamId, Protocol protocol, \x1b[01;35m\x1b[Kstd::string cipher\x1b[m\x1b[K)\n'}
+[6.138268] (ndi_aurora_node) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.174144] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData> CombinedApi::\x1b[01;32m\x1b[KgetTrackingDataBX\x1b[m\x1b[K(uint16_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.174819] (-) TimerEvent: {}
+[6.175302] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:708:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.175858] (ndi_aurora_node) StderrLine: {'line': b'  708 |     for (int t = 0; \x1b[01;35m\x1b[Kt < toolDataVector.size()\x1b[m\x1b[K; t++)\n'}
+[6.176275] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.186365] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData> CombinedApi::\x1b[01;32m\x1b[KgetTrackingDataBX2\x1b[m\x1b[K(std::string) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.187206] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:778:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfComponent*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.187722] (ndi_aurora_node) StderrLine: {'line': b'  778 |     for (int i = 0; \x1b[01;35m\x1b[Ki < container.components.size()\x1b[m\x1b[K; i++)\n'}
+[6.188206] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.209188] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic std::string CombinedApi::\x1b[01;32m\x1b[KgetWarningString\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.209943] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:946:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.210563] (ndi_aurora_node) StderrLine: {'line': b'  946 |     if (warnCode < 0 || \x1b[01;35m\x1b[KwarnCode >= sizeof(warningStrings)\x1b[m\x1b[K)\n'}
+[6.211052] (ndi_aurora_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.217153] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic std::string CombinedApi::\x1b[01;32m\x1b[KgetErrorString\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.217948] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:958:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.218384] (ndi_aurora_node) StderrLine: {'line': b'  958 |     if (errorCode < 0 || \x1b[01;35m\x1b[KerrorCode >= sizeof(errorStrings)\x1b[m\x1b[K)\n'}
+[6.218692] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.220096] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CombinedApi::\x1b[01;32m\x1b[KconvertGbfFileToText\x1b[m\x1b[K(char*, char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.220819] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:1097:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K18446744073709551606\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K-10\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.227795] (ndi_aurora_node) StderrLine: {'line': b' 1097 |                 reader.skipBytes( \x1b[01;35m\x1b[K0 -( sizeof( uint32_t ) * 2 ) - sizeof( uint16_t)\x1b[m\x1b[K );\n'}
+[6.228170] (ndi_aurora_node) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.228467] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:1090:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcompType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.228759] (ndi_aurora_node) StderrLine: {'line': b' 1090 |                 short \x1b[01;35m\x1b[KcompType\x1b[m\x1b[K = reader.get_uint16();\n'}
+[6.229066] (ndi_aurora_node) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.247874] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual GbfContainer::\x1b[01;32m\x1b[K~GbfContainer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.248557] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:65:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfComponent*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.248885] (ndi_aurora_node) StderrLine: {'line': b'   65 |     for ( int i = 0; \x1b[01;35m\x1b[Ki < components.size()\x1b[m\x1b[K; i++)\n'}
+[6.249316] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.260911] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string GbfContainer::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.261511] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:78:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<GbfComponent*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.261922] (ndi_aurora_node) StderrLine: {'line': b'   78 |     for ( int i = 0; \x1b[01;35m\x1b[Ki < components.size()\x1b[m\x1b[K; i++)\n'}
+[6.262290] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.278159] (-) TimerEvent: {}
+[6.380198] (-) TimerEvent: {}
+[6.394354] (ndi_aurora_node) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TcpConnection.cpp.o\x1b[0m\n'}
+[6.481208] (-) TimerEvent: {}
+[6.530459] (ndi_aurora_node) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TlsConnection.cpp.o\x1b[0m\n'}
+[6.533512] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGbfMarker3DError::\x1b[01;32m\x1b[KGbfMarker3DError\x1b[m\x1b[K(BufferedReader&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.534273] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:65:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.534712] (ndi_aurora_node) StderrLine: {'line': b'   65 |             while ( \x1b[01;35m\x1b[KlistErrors.size() <= markerIndex\x1b[m\x1b[K )\n'}
+[6.535112] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.542354] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfMarker3DError::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.543075] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:86:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<short unsigned int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.543532] (ndi_aurora_node) StderrLine: {'line': b'   86 |     for ( int toolIndex = 0; \x1b[01;35m\x1b[KtoolIndex < toolHandles.size()\x1b[m\x1b[K; toolIndex++ )\n'}
+[6.544041] (ndi_aurora_node) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.548228] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:90:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.549245] (ndi_aurora_node) StderrLine: {'line': b'   90 |         for ( int i = 0; \x1b[01;35m\x1b[Ki < errors[toolIndex].size()\x1b[m\x1b[K; i++ )\n'}
+[6.549735] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.581428] (-) TimerEvent: {}
+[6.621286] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfSystemAlert.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual std::string GbfSystemAlert::\x1b[01;32m\x1b[KtoString\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.622292] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfSystemAlert.cpp:59:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<SystemAlert>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.623069] (ndi_aurora_node) StderrLine: {'line': b'   59 |     for ( int i = 0; \x1b[01;35m\x1b[Ki < data.size()\x1b[m\x1b[K; i++)\n'}
+[6.623557] (ndi_aurora_node) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.642321] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.646182] (ndi_aurora_node) StderrLine: {'line': b'  114 | #pragma warning( disable : 4996)\n'}
+[6.646885] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[6.647377] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.647842] (ndi_aurora_node) StderrLine: {'line': b'  115 | #pragma warning( push )\n'}
+[6.651635] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[6.652247] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:117:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.652651] (ndi_aurora_node) StderrLine: {'line': b'  117 | #pragma warning( pop )\n'}
+[6.653028] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[6.681690] (-) TimerEvent: {}
+[6.693140] (ndi_aurora_node) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ToolData.cpp.o\x1b[0m\n'}
+[6.783178] (-) TimerEvent: {}
+[6.884081] (-) TimerEvent: {}
+[6.988194] (-) TimerEvent: {}
+[7.022016] (ndi_aurora_node) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Transform.cpp.o\x1b[0m\n'}
+[7.050204] (ndi_aurora_node) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/UdpSocket.cpp.o\x1b[0m\n'}
+[7.088475] (-) TimerEvent: {}
+[7.191521] (-) TimerEvent: {}
+[7.292407] (-) TimerEvent: {}
+[7.374513] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:129:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.377952] (ndi_aurora_node) StderrLine: {'line': b'  129 | #pragma warning( disable : 4996)\n'}
+[7.378573] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[7.379020] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:130:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.379461] (ndi_aurora_node) StderrLine: {'line': b'  130 | #pragma warning( push )\n'}
+[7.379839] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[7.382602] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:134:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring \xe2\x80\x98\x1b[01m\x1b[K#pragma warning \x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas\x07-Wunknown-pragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.383097] (ndi_aurora_node) StderrLine: {'line': b'  134 | #pragma warning( pop )\n'}
+[7.383524] (ndi_aurora_node) StderrLine: {'line': b'      | \n'}
+[7.393186] (-) TimerEvent: {}
+[7.495525] (-) TimerEvent: {}
+[7.596280] (-) TimerEvent: {}
+[7.700559] (-) TimerEvent: {}
+[7.801544] (-) TimerEvent: {}
+[7.902480] (-) TimerEvent: {}
+[8.004485] (-) TimerEvent: {}
+[8.109558] (-) TimerEvent: {}
+[8.210595] (-) TimerEvent: {}
+[8.313216] (-) TimerEvent: {}
+[8.414180] (-) TimerEvent: {}
+[8.515174] (-) TimerEvent: {}
+[8.617448] (-) TimerEvent: {}
+[8.719193] (-) TimerEvent: {}
+[8.733004] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:42\x1b[m\x1b[K:\n'}
+[8.735536] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int UdpSocket::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(const char*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.736128] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.736629] (ndi_aurora_node) StderrLine: {'line': b'  117 |     virtual int write( \x1b[01;35m\x1b[Kconst char* buffer\x1b[m\x1b[K, int length ) const { return -1; };\n'}
+[8.737133] (ndi_aurora_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.737565] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.737889] (ndi_aurora_node) StderrLine: {'line': b'  117 |     virtual int write( const char* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return -1; };\n'}
+[8.739809] (ndi_aurora_node) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.740287] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int UdpSocket::\x1b[01;32m\x1b[Kwrite\x1b[m\x1b[K(byte_t*, int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.740649] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.741111] (ndi_aurora_node) StderrLine: {'line': b'  120 |     virtual int write( \x1b[01;35m\x1b[Kbyte_t* buffer\x1b[m\x1b[K, int length ) const { return -1; };\n'}
+[8.741545] (ndi_aurora_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.741871] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klength\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.742369] (ndi_aurora_node) StderrLine: {'line': b'  120 |     virtual int write( byte_t* buffer, \x1b[01;35m\x1b[Kint length\x1b[m\x1b[K ) const { return -1; };\n'}
+[8.742758] (ndi_aurora_node) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.749698] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool UdpSocket::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.750540] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:75:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Khostname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.751062] (ndi_aurora_node) StderrLine: {'line': b'   75 | bool UdpSocket::connect( \x1b[01;35m\x1b[Kconst char* hostname\x1b[m\x1b[K, const char* port )\n'}
+[8.751500] (ndi_aurora_node) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.819431] (-) TimerEvent: {}
+[8.920275] (-) TimerEvent: {}
+[9.021280] (-) TimerEvent: {}
+[9.122265] (-) TimerEvent: {}
+[9.223188] (-) TimerEvent: {}
+[9.278696] (ndi_aurora_node) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX static library libndi_api.a\x1b[0m\n'}
+[9.323400] (-) TimerEvent: {}
+[9.424157] (-) TimerEvent: {}
+[9.452020] (ndi_aurora_node) StdoutLine: {'line': b'[ 86%] Built target ndi_api\n'}
+[9.513199] (ndi_aurora_node) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ndi_aurora_raw_node.dir/src/ndi_aurora_raw_node.cpp.o\x1b[0m\n'}
+[9.524448] (-) TimerEvent: {}
+[9.538439] (ndi_aurora_node) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/ndi_aurora_publisher.dir/src/ndi_aurora_publisher.cpp.o\x1b[0m\n'}
+[9.624666] (-) TimerEvent: {}
+[9.725340] (-) TimerEvent: {}
+[9.826174] (-) TimerEvent: {}
+[9.926958] (-) TimerEvent: {}
+[10.028017] (-) TimerEvent: {}
+[10.129076] (-) TimerEvent: {}
+[10.229891] (-) TimerEvent: {}
+[10.330698] (-) TimerEvent: {}
+[10.431512] (-) TimerEvent: {}
+[10.532259] (-) TimerEvent: {}
+[10.633035] (-) TimerEvent: {}
+[10.733839] (-) TimerEvent: {}
+[10.834670] (-) TimerEvent: {}
+[10.935765] (-) TimerEvent: {}
+[11.036677] (-) TimerEvent: {}
+[11.137556] (-) TimerEvent: {}
+[11.238398] (-) TimerEvent: {}
+[11.339278] (-) TimerEvent: {}
+[11.440147] (-) TimerEvent: {}
+[11.541051] (-) TimerEvent: {}
+[11.641927] (-) TimerEvent: {}
+[11.742804] (-) TimerEvent: {}
+[11.843710] (-) TimerEvent: {}
+[11.944571] (-) TimerEvent: {}
+[12.045334] (-) TimerEvent: {}
+[12.146339] (-) TimerEvent: {}
+[12.247477] (-) TimerEvent: {}
+[12.348483] (-) TimerEvent: {}
+[12.451430] (-) TimerEvent: {}
+[12.552483] (-) TimerEvent: {}
+[12.653450] (-) TimerEvent: {}
+[12.754410] (-) TimerEvent: {}
+[12.855257] (-) TimerEvent: {}
+[12.956058] (-) TimerEvent: {}
+[13.056864] (-) TimerEvent: {}
+[13.157708] (-) TimerEvent: {}
+[13.258545] (-) TimerEvent: {}
+[13.359351] (-) TimerEvent: {}
+[13.460163] (-) TimerEvent: {}
+[13.561053] (-) TimerEvent: {}
+[13.661874] (-) TimerEvent: {}
+[13.762862] (-) TimerEvent: {}
+[13.864173] (-) TimerEvent: {}
+[13.965171] (-) TimerEvent: {}
+[14.066032] (-) TimerEvent: {}
+[14.168171] (-) TimerEvent: {}
+[14.273153] (-) TimerEvent: {}
+[14.373930] (-) TimerEvent: {}
+[14.474822] (-) TimerEvent: {}
+[14.575711] (-) TimerEvent: {}
+[14.676545] (-) TimerEvent: {}
+[14.780611] (-) TimerEvent: {}
+[14.881766] (-) TimerEvent: {}
+[14.982580] (-) TimerEvent: {}
+[15.083428] (-) TimerEvent: {}
+[15.184475] (-) TimerEvent: {}
+[15.287058] (-) TimerEvent: {}
+[15.390495] (-) TimerEvent: {}
+[15.491409] (-) TimerEvent: {}
+[15.592414] (-) TimerEvent: {}
+[15.693131] (-) TimerEvent: {}
+[15.794056] (-) TimerEvent: {}
+[15.895025] (-) TimerEvent: {}
+[15.995924] (-) TimerEvent: {}
+[16.096841] (-) TimerEvent: {}
+[16.197488] (-) TimerEvent: {}
+[16.298283] (-) TimerEvent: {}
+[16.399231] (-) TimerEvent: {}
+[16.500007] (-) TimerEvent: {}
+[16.600814] (-) TimerEvent: {}
+[16.701696] (-) TimerEvent: {}
+[16.803232] (-) TimerEvent: {}
+[16.904165] (-) TimerEvent: {}
+[17.005043] (-) TimerEvent: {}
+[17.105878] (-) TimerEvent: {}
+[17.206721] (-) TimerEvent: {}
+[17.307546] (-) TimerEvent: {}
+[17.408746] (-) TimerEvent: {}
+[17.509651] (-) TimerEvent: {}
+[17.610495] (-) TimerEvent: {}
+[17.711372] (-) TimerEvent: {}
+[17.812109] (-) TimerEvent: {}
+[17.912811] (-) TimerEvent: {}
+[18.013559] (-) TimerEvent: {}
+[18.114353] (-) TimerEvent: {}
+[18.215328] (-) TimerEvent: {}
+[18.316464] (-) TimerEvent: {}
+[18.417253] (-) TimerEvent: {}
+[18.518073] (-) TimerEvent: {}
+[18.618924] (-) TimerEvent: {}
+[18.719849] (-) TimerEvent: {}
+[18.820752] (-) TimerEvent: {}
+[18.921725] (-) TimerEvent: {}
+[19.022607] (-) TimerEvent: {}
+[19.123448] (-) TimerEvent: {}
+[19.224338] (-) TimerEvent: {}
+[19.325208] (-) TimerEvent: {}
+[19.428207] (-) TimerEvent: {}
+[19.535237] (-) TimerEvent: {}
+[19.636187] (-) TimerEvent: {}
+[19.737185] (-) TimerEvent: {}
+[19.838780] (-) TimerEvent: {}
+[19.939933] (-) TimerEvent: {}
+[20.040774] (-) TimerEvent: {}
+[20.141707] (-) TimerEvent: {}
+[20.242480] (-) TimerEvent: {}
+[20.343226] (-) TimerEvent: {}
+[20.444086] (-) TimerEvent: {}
+[20.544923] (-) TimerEvent: {}
+[20.645794] (-) TimerEvent: {}
+[20.746729] (-) TimerEvent: {}
+[20.772649] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNDIRawPoseNode::\x1b[01;32m\x1b[KNDIRawPoseNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.784848] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:41:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.785450] (ndi_aurora_node) StderrLine: {'line': b'   41 |     if (\x1b[01;35m\x1b[Ktool_index_ >= enabledTools_.size()\x1b[m\x1b[K) {\n'}
+[20.785768] (ndi_aurora_node) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.790887] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[20.791539] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:62:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.791890] (ndi_aurora_node) StderrLine: {'line': b'   62 |         if (\x1b[01;35m\x1b[Ktool_index_ >= tools.size()\x1b[m\x1b[K || tools[tool_index_].transform.isMissing()) {\n'}
+[20.792216] (ndi_aurora_node) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.846959] (-) TimerEvent: {}
+[20.947827] (-) TimerEvent: {}
+[21.048809] (-) TimerEvent: {}
+[21.149861] (-) TimerEvent: {}
+[21.250744] (-) TimerEvent: {}
+[21.351609] (-) TimerEvent: {}
+[21.452492] (-) TimerEvent: {}
+[21.553328] (-) TimerEvent: {}
+[21.654169] (-) TimerEvent: {}
+[21.755064] (-) TimerEvent: {}
+[21.855855] (-) TimerEvent: {}
+[21.956566] (-) TimerEvent: {}
+[22.057473] (-) TimerEvent: {}
+[22.158150] (-) TimerEvent: {}
+[22.258887] (-) TimerEvent: {}
+[22.359666] (-) TimerEvent: {}
+[22.460473] (-) TimerEvent: {}
+[22.561292] (-) TimerEvent: {}
+[22.661958] (-) TimerEvent: {}
+[22.762750] (-) TimerEvent: {}
+[22.864193] (-) TimerEvent: {}
+[22.965151] (-) TimerEvent: {}
+[23.066068] (-) TimerEvent: {}
+[23.166916] (-) TimerEvent: {}
+[23.267770] (-) TimerEvent: {}
+[23.368663] (-) TimerEvent: {}
+[23.469516] (-) TimerEvent: {}
+[23.570367] (-) TimerEvent: {}
+[23.671201] (-) TimerEvent: {}
+[23.772663] (-) TimerEvent: {}
+[23.873537] (-) TimerEvent: {}
+[23.974447] (-) TimerEvent: {}
+[24.075315] (-) TimerEvent: {}
+[24.177234] (-) TimerEvent: {}
+[24.277983] (-) TimerEvent: {}
+[24.378696] (-) TimerEvent: {}
+[24.421295] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNDIRelativePoseNode::\x1b[01;32m\x1b[KNDIRelativePoseNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.422096] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:139:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNDIRelativePoseNode::file_index_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.422555] (ndi_aurora_node) StderrLine: {'line': b'  139 |   std::atomic<int> \x1b[01;35m\x1b[Kfile_index_\x1b[m\x1b[K;\n'}
+[24.423058] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.423450] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:136:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<bool> NDIRelativePoseNode::has_initial_pose_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.423816] (ndi_aurora_node) StderrLine: {'line': b'  136 |   std::atomic<bool> \x1b[01;35m\x1b[Khas_initial_pose_\x1b[m\x1b[K;\n'}
+[24.424205] (ndi_aurora_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.424544] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:22:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.424924] (ndi_aurora_node) StderrLine: {'line': b'   22 |   \x1b[01;35m\x1b[KNDIRelativePoseNode\x1b[m\x1b[K()\n'}
+[24.425324] (ndi_aurora_node) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.426050] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:45:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.426548] (ndi_aurora_node) StderrLine: {'line': b'   45 |     if (\x1b[01;35m\x1b[KenabledTools_.size() <= tool_index\x1b[m\x1b[K) {\n'}
+[24.426873] (ndi_aurora_node) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.464299] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[24.464920] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:67:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ToolData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.465251] (ndi_aurora_node) StderrLine: {'line': b'   67 |         if (\x1b[01;35m\x1b[Ktool_index >= tools.size()\x1b[m\x1b[K || tools[tool_index].transform.isMissing()) {\n'}
+[24.465528] (ndi_aurora_node) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.478869] (-) TimerEvent: {}
+[24.579598] (-) TimerEvent: {}
+[24.680506] (-) TimerEvent: {}
+[24.781410] (-) TimerEvent: {}
+[24.882273] (-) TimerEvent: {}
+[24.983158] (-) TimerEvent: {}
+[25.083996] (-) TimerEvent: {}
+[25.184820] (-) TimerEvent: {}
+[25.285660] (-) TimerEvent: {}
+[25.386525] (-) TimerEvent: {}
+[25.487365] (-) TimerEvent: {}
+[25.588228] (-) TimerEvent: {}
+[25.689150] (-) TimerEvent: {}
+[25.790292] (-) TimerEvent: {}
+[25.891219] (-) TimerEvent: {}
+[25.992164] (-) TimerEvent: {}
+[26.093082] (-) TimerEvent: {}
+[26.193878] (-) TimerEvent: {}
+[26.295015] (-) TimerEvent: {}
+[26.396089] (-) TimerEvent: {}
+[26.496912] (-) TimerEvent: {}
+[26.597801] (-) TimerEvent: {}
+[26.698783] (-) TimerEvent: {}
+[26.800777] (-) TimerEvent: {}
+[26.901601] (-) TimerEvent: {}
+[27.002431] (-) TimerEvent: {}
+[27.103306] (-) TimerEvent: {}
+[27.204220] (-) TimerEvent: {}
+[27.305061] (-) TimerEvent: {}
+[27.405899] (-) TimerEvent: {}
+[27.454827] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:3\x1b[m\x1b[K:\n'}
+[27.455758] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:\x1b[m\x1b[K At global scope:\n'}
+[27.456240] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KerrorStrings\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.456614] (ndi_aurora_node) StderrLine: {'line': b'  426 | static const char* \x1b[01;35m\x1b[KerrorStrings\x1b[m\x1b[K[] =\n'}
+[27.456942] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.457290] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KwarningStrings\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.457583] (ndi_aurora_node) StderrLine: {'line': b'  415 | static const char* \x1b[01;35m\x1b[KwarningStrings\x1b[m\x1b[K[] =\n'}
+[27.457864] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.506177] (-) TimerEvent: {}
+[27.607020] (-) TimerEvent: {}
+[27.707841] (-) TimerEvent: {}
+[27.808710] (-) TimerEvent: {}
+[27.909470] (-) TimerEvent: {}
+[28.010208] (-) TimerEvent: {}
+[28.110886] (-) TimerEvent: {}
+[28.211628] (-) TimerEvent: {}
+[28.312465] (-) TimerEvent: {}
+[28.413291] (-) TimerEvent: {}
+[28.514118] (-) TimerEvent: {}
+[28.614901] (-) TimerEvent: {}
+[28.716363] (-) TimerEvent: {}
+[28.817312] (-) TimerEvent: {}
+[28.918103] (-) TimerEvent: {}
+[29.018845] (-) TimerEvent: {}
+[29.119624] (-) TimerEvent: {}
+[29.257154] (-) TimerEvent: {}
+[29.357916] (-) TimerEvent: {}
+[29.458699] (-) TimerEvent: {}
+[29.559530] (-) TimerEvent: {}
+[29.660369] (-) TimerEvent: {}
+[29.761090] (-) TimerEvent: {}
+[29.861770] (-) TimerEvent: {}
+[29.962485] (-) TimerEvent: {}
+[30.063158] (-) TimerEvent: {}
+[30.163922] (-) TimerEvent: {}
+[30.265200] (-) TimerEvent: {}
+[30.366058] (-) TimerEvent: {}
+[30.466804] (-) TimerEvent: {}
+[30.567601] (-) TimerEvent: {}
+[30.668271] (-) TimerEvent: {}
+[30.769102] (-) TimerEvent: {}
+[30.870688] (-) TimerEvent: {}
+[30.971459] (-) TimerEvent: {}
+[31.072161] (-) TimerEvent: {}
+[31.172833] (-) TimerEvent: {}
+[31.273622] (-) TimerEvent: {}
+[31.374482] (-) TimerEvent: {}
+[31.475191] (-) TimerEvent: {}
+[31.575831] (-) TimerEvent: {}
+[31.676520] (-) TimerEvent: {}
+[31.777124] (-) TimerEvent: {}
+[31.877734] (-) TimerEvent: {}
+[31.978428] (-) TimerEvent: {}
+[32.079148] (-) TimerEvent: {}
+[32.179852] (-) TimerEvent: {}
+[32.280556] (-) TimerEvent: {}
+[32.306475] (ndi_aurora_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:5\x1b[m\x1b[K:\n'}
+[32.307325] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:\x1b[m\x1b[K At global scope:\n'}
+[32.307777] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KerrorStrings\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.308289] (ndi_aurora_node) StderrLine: {'line': b'  426 | static const char* \x1b[01;35m\x1b[KerrorStrings\x1b[m\x1b[K[] =\n'}
+[32.308686] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.309089] (ndi_aurora_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KwarningStrings\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.309491] (ndi_aurora_node) StderrLine: {'line': b'  415 | static const char* \x1b[01;35m\x1b[KwarningStrings\x1b[m\x1b[K[] =\n'}
+[32.309997] (ndi_aurora_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.380854] (-) TimerEvent: {}
+[32.481830] (-) TimerEvent: {}
+[32.582556] (-) TimerEvent: {}
+[32.683292] (-) TimerEvent: {}
+[32.783913] (-) TimerEvent: {}
+[32.835349] (ndi_aurora_node) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ndi_aurora_raw_node\x1b[0m\n'}
+[32.884162] (-) TimerEvent: {}
+[32.984890] (-) TimerEvent: {}
+[33.085535] (-) TimerEvent: {}
+[33.186105] (-) TimerEvent: {}
+[33.286736] (-) TimerEvent: {}
+[33.387590] (-) TimerEvent: {}
+[33.488310] (-) TimerEvent: {}
+[33.548048] (ndi_aurora_node) StdoutLine: {'line': b'[ 96%] Built target ndi_aurora_raw_node\n'}
+[33.588552] (-) TimerEvent: {}
+[33.689140] (-) TimerEvent: {}
+[33.789734] (-) TimerEvent: {}
+[33.890447] (-) TimerEvent: {}
+[33.991176] (-) TimerEvent: {}
+[34.091867] (-) TimerEvent: {}
+[34.192428] (-) TimerEvent: {}
+[34.293042] (-) TimerEvent: {}
+[34.372845] (netft_reader) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable netft_baseraw_node\x1b[0m\n'}
+[34.393244] (-) TimerEvent: {}
+[34.493870] (-) TimerEvent: {}
+[34.594634] (-) TimerEvent: {}
+[34.695337] (-) TimerEvent: {}
+[34.796045] (-) TimerEvent: {}
+[34.815665] (netft_reader) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable netft_node\x1b[0m\n'}
+[34.896282] (-) TimerEvent: {}
+[34.997165] (-) TimerEvent: {}
+[35.048510] (netft_reader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable netft_raw_node\x1b[0m\n'}
+[35.053612] (netft_reader) StdoutLine: {'line': b'[100%] Built target netft_baseraw_node\n'}
+[35.097329] (-) TimerEvent: {}
+[35.197910] (-) TimerEvent: {}
+[35.298472] (-) TimerEvent: {}
+[35.399189] (-) TimerEvent: {}
+[35.499838] (-) TimerEvent: {}
+[35.559336] (netft_reader) StdoutLine: {'line': b'[100%] Built target netft_node\n'}
+[35.600120] (-) TimerEvent: {}
+[35.655669] (netft_reader) StdoutLine: {'line': b'[100%] Built target netft_raw_node\n'}
+[35.702353] (-) TimerEvent: {}
+[35.714214] (netft_reader) CommandEnded: {'returncode': 0}
+[35.753467] (netft_reader) JobProgress: {'identifier': 'netft_reader', 'progress': 'install'}
+[35.790945] (netft_reader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[35.803095] (-) TimerEvent: {}
+[35.831705] (netft_reader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.832529] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node\n'}
+[35.840869] (netft_reader) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node" to ""\n'}
+[35.841822] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node\n'}
+[35.849408] (netft_reader) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node" to ""\n'}
+[35.850691] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node\n'}
+[35.856032] (netft_reader) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node" to ""\n'}
+[35.856782] (netft_reader) StdoutLine: {'line': b'-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include\n'}
+[35.857178] (netft_reader) StdoutLine: {'line': b'-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader\n'}
+[35.857502] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h\n'}
+[35.858511] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h\n'}
+[35.860643] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader\n'}
+[35.861597] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader\n'}
+[35.862433] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh\n'}
+[35.862898] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv\n'}
+[35.864785] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh\n'}
+[35.865018] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv\n'}
+[35.865191] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash\n'}
+[35.865388] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh\n'}
+[35.865645] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh\n'}
+[35.866044] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv\n'}
+[35.867622] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv\n'}
+[35.868575] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader\n'}
+[35.869428] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake\n'}
+[35.870280] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake\n'}
+[35.870999] (netft_reader) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml\n'}
+[35.881914] (netft_reader) CommandEnded: {'returncode': 0}
+[35.905897] (-) TimerEvent: {}
+[35.949162] (netft_reader) JobEnded: {'identifier': 'netft_reader', 'rc': 0}
+[36.006151] (-) TimerEvent: {}
+[36.106537] (-) TimerEvent: {}
+[36.206943] (-) TimerEvent: {}
+[36.307348] (-) TimerEvent: {}
+[36.407809] (-) TimerEvent: {}
+[36.508272] (-) TimerEvent: {}
+[36.553949] (ndi_aurora_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ndi_aurora_publisher\x1b[0m\n'}
+[36.608466] (-) TimerEvent: {}
+[36.709047] (-) TimerEvent: {}
+[36.809586] (-) TimerEvent: {}
+[36.910066] (-) TimerEvent: {}
+[36.922817] (ndi_aurora_node) StdoutLine: {'line': b'[100%] Built target ndi_aurora_publisher\n'}
+[36.942686] (ndi_aurora_node) CommandEnded: {'returncode': 0}
+[36.943840] (ndi_aurora_node) JobProgress: {'identifier': 'ndi_aurora_node', 'progress': 'install'}
+[36.944573] (ndi_aurora_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[36.960123] (ndi_aurora_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.960490] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/libndi_api.a\n'}
+[36.962667] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher\n'}
+[36.966323] (ndi_aurora_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher" to ""\n'}
+[36.966873] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node\n'}
+[36.969022] (ndi_aurora_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node" to ""\n'}
+[36.969488] (ndi_aurora_node) StdoutLine: {'line': b'-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib\n'}
+[36.969846] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Connection.h\n'}
+[36.970136] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfContainer.h\n'}
+[36.970322] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/DtlsConnection.h\n'}
+[36.970682] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfComponent.h\n'}
+[36.970933] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CombinedApi.h\n'}
+[36.971130] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfFrame.h\n'}
+[36.971304] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ComConnection.h\n'}
+[36.971537] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfSystemAlert.h\n'}
+[36.971749] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfButton1D.h\n'}
+[36.971917] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfMarker3DError.h\n'}
+[36.972096] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/MarkerData.h\n'}
+[36.972334] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemCRC.h\n'}
+[36.972503] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData6D.h\n'}
+[36.972721] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/UdpSocket.h\n'}
+[36.972892] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CryptoConnection.h\n'}
+[36.973072] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ToolData.h\n'}
+[36.973300] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TlsConnection.h\n'}
+[36.973468] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemAlert.h\n'}
+[36.973638] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Transform.h\n'}
+[36.973856] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/BufferedReader.h\n'}
+[36.974227] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/FileConnection.h\n'}
+[36.974380] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData3D.h\n'}
+[36.974485] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/PortHandleInfo.h\n'}
+[36.974579] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfLineSeparation.h\n'}
+[36.974668] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TcpConnection.h\n'}
+[36.974764] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.sh\n'}
+[36.974897] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.dsv\n'}
+[36.975000] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/package_run_dependencies/ndi_aurora_node\n'}
+[36.975090] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/parent_prefix_path/ndi_aurora_node\n'}
+[36.975175] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.sh\n'}
+[36.975300] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.dsv\n'}
+[36.975387] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.sh\n'}
+[36.975469] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.dsv\n'}
+[36.975561] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.bash\n'}
+[36.975651] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.sh\n'}
+[36.975740] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.zsh\n'}
+[36.975836] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.dsv\n'}
+[36.975927] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv\n'}
+[36.976020] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/packages/ndi_aurora_node\n'}
+[36.976112] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport.cmake\n'}
+[36.976203] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport-noconfig.cmake\n'}
+[36.976336] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.976504] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[36.976601] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.976695] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[36.976789] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig.cmake\n'}
+[36.976919] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig-version.cmake\n'}
+[36.977056] (ndi_aurora_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.xml\n'}
+[36.979863] (ndi_aurora_node) CommandEnded: {'returncode': 0}
+[37.000475] (ndi_aurora_node) JobEnded: {'identifier': 'ndi_aurora_node', 'rc': 0}
+[37.007734] (sync_logger_node) JobStarted: {'identifier': 'sync_logger_node'}
+[37.010219] (-) TimerEvent: {}
+[37.022913] (sync_logger_node) JobProgress: {'identifier': 'sync_logger_node', 'progress': 'cmake'}
+[37.024574] (sync_logger_node) Command: {'cmd': ['/usr/bin/cmake', '/home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node', '-DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[37.110366] (-) TimerEvent: {}
+[37.148586] (sync_logger_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[37.210631] (-) TimerEvent: {}
+[37.247796] (sync_logger_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[37.278362] (sync_logger_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[37.310801] (-) TimerEvent: {}
+[37.411296] (-) TimerEvent: {}
+[37.434638] (sync_logger_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.452810] (sync_logger_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[37.453373] (sync_logger_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.454061] (sync_logger_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.476632] (sync_logger_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[37.511479] (-) TimerEvent: {}
+[37.611932] (-) TimerEvent: {}
+[37.643558] (sync_logger_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[37.661257] (sync_logger_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[37.661637] (sync_logger_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[37.662483] (sync_logger_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[37.667756] (sync_logger_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[37.712215] (-) TimerEvent: {}
+[37.812782] (-) TimerEvent: {}
+[37.913289] (-) TimerEvent: {}
+[37.953069] (sync_logger_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[38.013555] (-) TimerEvent: {}
+[38.113936] (-) TimerEvent: {}
+[38.140434] (sync_logger_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[38.210057] (sync_logger_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[38.214192] (-) TimerEvent: {}
+[38.233771] (sync_logger_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[38.260636] (sync_logger_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.292697] (sync_logger_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.314466] (-) TimerEvent: {}
+[38.414922] (-) TimerEvent: {}
+[38.432993] (sync_logger_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[38.438302] (sync_logger_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[38.515102] (-) TimerEvent: {}
+[38.579856] (sync_logger_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[38.615301] (-) TimerEvent: {}
+[38.618379] (sync_logger_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[38.665376] (sync_logger_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[38.715576] (-) TimerEvent: {}
+[38.799277] (sync_logger_node) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[38.815844] (-) TimerEvent: {}
+[38.833942] (sync_logger_node) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[38.891523] (sync_logger_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[38.916117] (-) TimerEvent: {}
+[38.941870] (sync_logger_node) StdoutLine: {'line': b'-- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[39.016311] (-) TimerEvent: {}
+[39.111295] (sync_logger_node) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[39.116431] (-) TimerEvent: {}
+[39.131412] (sync_logger_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[39.137801] (sync_logger_node) StdoutLine: {'line': b'-- Build files have been written to: /home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node\n'}
+[39.154434] (sync_logger_node) CommandEnded: {'returncode': 0}
+[39.155336] (sync_logger_node) JobProgress: {'identifier': 'sync_logger_node', 'progress': 'build'}
+[39.156256] (sync_logger_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', '--', '-j12', '-l12'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[39.216608] (-) TimerEvent: {}
+[39.243614] (sync_logger_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sync_logger_node.dir/src/sync_logger_node.cpp.o\x1b[0m\n'}
+[39.316875] (-) TimerEvent: {}
+[39.417301] (-) TimerEvent: {}
+[39.517728] (-) TimerEvent: {}
+[39.618206] (-) TimerEvent: {}
+[39.718616] (-) TimerEvent: {}
+[39.819151] (-) TimerEvent: {}
+[39.919685] (-) TimerEvent: {}
+[40.020112] (-) TimerEvent: {}
+[40.120765] (-) TimerEvent: {}
+[40.221244] (-) TimerEvent: {}
+[40.321766] (-) TimerEvent: {}
+[40.422196] (-) TimerEvent: {}
+[40.522726] (-) TimerEvent: {}
+[40.623204] (-) TimerEvent: {}
+[40.723721] (-) TimerEvent: {}
+[40.824200] (-) TimerEvent: {}
+[40.924643] (-) TimerEvent: {}
+[41.025054] (-) TimerEvent: {}
+[41.125482] (-) TimerEvent: {}
+[41.225916] (-) TimerEvent: {}
+[41.326376] (-) TimerEvent: {}
+[41.426833] (-) TimerEvent: {}
+[41.527273] (-) TimerEvent: {}
+[41.627884] (-) TimerEvent: {}
+[41.728294] (-) TimerEvent: {}
+[41.828764] (-) TimerEvent: {}
+[41.929265] (-) TimerEvent: {}
+[42.029729] (-) TimerEvent: {}
+[42.130256] (-) TimerEvent: {}
+[42.230702] (-) TimerEvent: {}
+[42.331139] (-) TimerEvent: {}
+[42.431546] (-) TimerEvent: {}
+[42.532004] (-) TimerEvent: {}
+[42.632419] (-) TimerEvent: {}
+[42.732844] (-) TimerEvent: {}
+[42.833302] (-) TimerEvent: {}
+[42.933718] (-) TimerEvent: {}
+[43.034136] (-) TimerEvent: {}
+[43.134637] (-) TimerEvent: {}
+[43.235068] (-) TimerEvent: {}
+[43.335508] (-) TimerEvent: {}
+[43.435923] (-) TimerEvent: {}
+[43.536342] (-) TimerEvent: {}
+[43.636830] (-) TimerEvent: {}
+[43.737380] (-) TimerEvent: {}
+[43.837883] (-) TimerEvent: {}
+[43.938414] (-) TimerEvent: {}
+[44.038916] (-) TimerEvent: {}
+[44.139405] (-) TimerEvent: {}
+[44.239906] (-) TimerEvent: {}
+[44.340441] (-) TimerEvent: {}
+[44.440962] (-) TimerEvent: {}
+[44.541521] (-) TimerEvent: {}
+[44.642064] (-) TimerEvent: {}
+[44.742613] (-) TimerEvent: {}
+[44.843150] (-) TimerEvent: {}
+[44.943692] (-) TimerEvent: {}
+[45.044215] (-) TimerEvent: {}
+[45.144670] (-) TimerEvent: {}
+[45.245192] (-) TimerEvent: {}
+[45.345705] (-) TimerEvent: {}
+[45.446216] (-) TimerEvent: {}
+[45.546734] (-) TimerEvent: {}
+[45.647174] (-) TimerEvent: {}
+[45.747604] (-) TimerEvent: {}
+[45.848048] (-) TimerEvent: {}
+[45.948435] (-) TimerEvent: {}
+[46.048875] (-) TimerEvent: {}
+[46.149321] (-) TimerEvent: {}
+[46.249770] (-) TimerEvent: {}
+[46.350242] (-) TimerEvent: {}
+[46.450681] (-) TimerEvent: {}
+[46.551100] (-) TimerEvent: {}
+[46.651614] (-) TimerEvent: {}
+[46.752056] (-) TimerEvent: {}
+[46.852494] (-) TimerEvent: {}
+[46.952934] (-) TimerEvent: {}
+[47.053405] (-) TimerEvent: {}
+[47.153949] (-) TimerEvent: {}
+[47.254373] (-) TimerEvent: {}
+[47.354792] (-) TimerEvent: {}
+[47.455239] (-) TimerEvent: {}
+[47.555662] (-) TimerEvent: {}
+[47.656119] (-) TimerEvent: {}
+[47.756658] (-) TimerEvent: {}
+[47.857102] (-) TimerEvent: {}
+[47.957551] (-) TimerEvent: {}
+[48.058009] (-) TimerEvent: {}
+[48.158430] (-) TimerEvent: {}
+[48.258871] (-) TimerEvent: {}
+[48.359339] (-) TimerEvent: {}
+[48.459809] (-) TimerEvent: {}
+[48.560335] (-) TimerEvent: {}
+[48.660813] (-) TimerEvent: {}
+[48.761311] (-) TimerEvent: {}
+[48.861753] (-) TimerEvent: {}
+[48.962226] (-) TimerEvent: {}
+[49.062649] (-) TimerEvent: {}
+[49.163116] (-) TimerEvent: {}
+[49.263551] (-) TimerEvent: {}
+[49.364081] (-) TimerEvent: {}
+[49.464602] (-) TimerEvent: {}
+[49.565039] (-) TimerEvent: {}
+[49.665435] (-) TimerEvent: {}
+[49.765955] (-) TimerEvent: {}
+[49.866375] (-) TimerEvent: {}
+[49.966766] (-) TimerEvent: {}
+[50.067189] (-) TimerEvent: {}
+[50.167589] (-) TimerEvent: {}
+[50.268058] (-) TimerEvent: {}
+[50.368578] (-) TimerEvent: {}
+[50.469043] (-) TimerEvent: {}
+[50.569511] (-) TimerEvent: {}
+[50.670023] (-) TimerEvent: {}
+[50.770537] (-) TimerEvent: {}
+[50.871034] (-) TimerEvent: {}
+[50.971458] (-) TimerEvent: {}
+[51.071864] (-) TimerEvent: {}
+[51.172304] (-) TimerEvent: {}
+[51.272724] (-) TimerEvent: {}
+[51.373131] (-) TimerEvent: {}
+[51.473480] (-) TimerEvent: {}
+[51.573865] (-) TimerEvent: {}
+[51.674268] (-) TimerEvent: {}
+[51.774781] (-) TimerEvent: {}
+[51.875314] (-) TimerEvent: {}
+[51.975807] (-) TimerEvent: {}
+[52.076361] (-) TimerEvent: {}
+[52.176791] (-) TimerEvent: {}
+[52.277259] (-) TimerEvent: {}
+[52.377767] (-) TimerEvent: {}
+[52.478294] (-) TimerEvent: {}
+[52.578687] (-) TimerEvent: {}
+[52.679169] (-) TimerEvent: {}
+[52.779666] (-) TimerEvent: {}
+[52.880145] (-) TimerEvent: {}
+[52.980569] (-) TimerEvent: {}
+[53.080989] (-) TimerEvent: {}
+[53.181354] (-) TimerEvent: {}
+[53.281728] (-) TimerEvent: {}
+[53.382151] (-) TimerEvent: {}
+[53.482646] (-) TimerEvent: {}
+[53.583045] (-) TimerEvent: {}
+[53.683398] (-) TimerEvent: {}
+[53.783817] (-) TimerEvent: {}
+[53.884362] (-) TimerEvent: {}
+[53.984850] (-) TimerEvent: {}
+[54.085359] (-) TimerEvent: {}
+[54.185847] (-) TimerEvent: {}
+[54.286350] (-) TimerEvent: {}
+[54.386833] (-) TimerEvent: {}
+[54.487335] (-) TimerEvent: {}
+[54.587825] (-) TimerEvent: {}
+[54.688239] (-) TimerEvent: {}
+[54.788724] (-) TimerEvent: {}
+[54.889202] (-) TimerEvent: {}
+[54.989689] (-) TimerEvent: {}
+[55.090162] (-) TimerEvent: {}
+[55.190653] (-) TimerEvent: {}
+[55.291145] (-) TimerEvent: {}
+[55.391630] (-) TimerEvent: {}
+[55.492132] (-) TimerEvent: {}
+[55.592612] (-) TimerEvent: {}
+[55.693106] (-) TimerEvent: {}
+[55.793589] (-) TimerEvent: {}
+[55.894066] (-) TimerEvent: {}
+[55.994551] (-) TimerEvent: {}
+[56.094942] (-) TimerEvent: {}
+[56.195434] (-) TimerEvent: {}
+[56.295915] (-) TimerEvent: {}
+[56.396403] (-) TimerEvent: {}
+[56.496897] (-) TimerEvent: {}
+[56.597392] (-) TimerEvent: {}
+[56.697884] (-) TimerEvent: {}
+[56.798388] (-) TimerEvent: {}
+[56.898870] (-) TimerEvent: {}
+[56.999362] (-) TimerEvent: {}
+[57.099838] (-) TimerEvent: {}
+[57.200346] (-) TimerEvent: {}
+[57.300745] (-) TimerEvent: {}
+[57.401342] (-) TimerEvent: {}
+[57.501866] (-) TimerEvent: {}
+[57.602362] (-) TimerEvent: {}
+[57.702854] (-) TimerEvent: {}
+[57.803417] (-) TimerEvent: {}
+[57.903911] (-) TimerEvent: {}
+[58.004427] (-) TimerEvent: {}
+[58.104918] (-) TimerEvent: {}
+[58.205285] (-) TimerEvent: {}
+[58.305800] (-) TimerEvent: {}
+[58.406368] (-) TimerEvent: {}
+[58.506771] (-) TimerEvent: {}
+[58.607324] (-) TimerEvent: {}
+[58.707899] (-) TimerEvent: {}
+[58.774581] (sync_logger_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sync_logger_node\x1b[0m\n'}
+[58.808191] (-) TimerEvent: {}
+[58.908721] (-) TimerEvent: {}
+[59.009245] (-) TimerEvent: {}
+[59.109738] (-) TimerEvent: {}
+[59.210234] (-) TimerEvent: {}
+[59.310761] (-) TimerEvent: {}
+[59.411309] (-) TimerEvent: {}
+[59.463679] (sync_logger_node) StdoutLine: {'line': b'[100%] Built target sync_logger_node\n'}
+[59.484347] (sync_logger_node) CommandEnded: {'returncode': 0}
+[59.485475] (sync_logger_node) JobProgress: {'identifier': 'sync_logger_node', 'progress': 'install'}
+[59.486095] (sync_logger_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node'], 'cwd': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yufei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib:/home/yufei/palpation_ws/install/ndi_aurora_node/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yufei', 'OLDPWD': '/home/yufei/code/Palpation_smoother', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2819', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yufei/palpation_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yufei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yufei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/yufei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yufei-ThinkPad-E15-Gen-4:@/tmp/.ICE-unix/2819,unix/yufei-ThinkPad-E15-Gen-4:/tmp/.ICE-unix/2819', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cf9e3680_a20b_4ae0_9a8e_6a8f2a6e42ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1A1NH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.405', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yufei/code/Palpation_smoother/ros2/build/sync_logger_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5ea898ed56b360fa6b58b000694a2d2d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yufei/palpation_ws/install/ves_kinematic_calibration/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/sync_logger_py/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_pub/lib/python3.12/site-packages:/home/yufei/palpation_ws/install/palpation_force_calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy'}), 'shell': False}
+[59.500451] (sync_logger_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.502075] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/lib/sync_logger_node/sync_logger_node\n'}
+[59.511561] (-) TimerEvent: {}
+[59.511983] (sync_logger_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/lib/sync_logger_node/sync_logger_node" to ""\n'}
+[59.512381] (sync_logger_node) StdoutLine: {'line': b'-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node//launch\n'}
+[59.512743] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node//launch/multi_sensor_logger_launch.py\n'}
+[59.513205] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/package_run_dependencies/sync_logger_node\n'}
+[59.513400] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/parent_prefix_path/sync_logger_node\n'}
+[59.513570] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.sh\n'}
+[59.513735] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.dsv\n'}
+[59.513896] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/path.sh\n'}
+[59.514275] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/environment/path.dsv\n'}
+[59.514469] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.bash\n'}
+[59.514656] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.sh\n'}
+[59.514853] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.zsh\n'}
+[59.515087] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/local_setup.dsv\n'}
+[59.515291] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/package.dsv\n'}
+[59.515535] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/ament_index/resource_index/packages/sync_logger_node\n'}
+[59.515715] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig.cmake\n'}
+[59.515944] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig-version.cmake\n'}
+[59.516470] (sync_logger_node) StdoutLine: {'line': b'-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node/share/sync_logger_node/package.xml\n'}
+[59.517744] (sync_logger_node) CommandEnded: {'returncode': 0}
+[59.542045] (sync_logger_node) JobEnded: {'identifier': 'sync_logger_node', 'rc': 0}
+[59.545889] (-) EventReactorShutdown: {}

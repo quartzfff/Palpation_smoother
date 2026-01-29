@@ -1,0 +1,373 @@
+[0.041s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.315s] -- The CXX compiler identification is GNU 13.3.0
+[0.355s] -- Detecting C compiler ABI info
+[0.556s] -- Detecting C compiler ABI info - done
+[0.585s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.585s] -- Detecting C compile features
+[0.586s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.849s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.879s] -- Detecting CXX compile features
+[0.880s] -- Detecting CXX compile features - done
+[0.886s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.250s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.510s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.639s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.681s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.043s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.053s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.316s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.633s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.758s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.072s] -- Configuring done (3.0s)
+[3.106s] -- Generating done (0.0s)
+[3.120s] -- Build files have been written to: /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node
+[3.138s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node
+[3.141s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node -- -j12 -l12
+[3.255s] [  3%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CombinedApi.cpp.o[0m
+[3.258s] [  6%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/BufferedReader.cpp.o[0m
+[3.258s] [ 10%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Connection.cpp.o[0m
+[3.259s] [ 13%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/DtlsConnection.cpp.o[0m
+[3.259s] [ 16%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/FileConnection.cpp.o[0m
+[3.259s] [ 20%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfButton1D.cpp.o[0m
+[3.262s] [ 23%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/CryptoConnection.cpp.o[0m
+[3.263s] [ 26%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ComConnection.cpp.o[0m
+[3.269s] [ 30%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfComponent.cpp.o[0m
+[3.270s] [ 36%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData3D.cpp.o[0m
+[3.271s] [ 36%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfContainer.cpp.o[0m
+[3.277s] [ 40%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfData6D.cpp.o[0m
+[3.335s] [ 43%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfFrame.cpp.o[0m
+[3.377s] [ 46%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfLineSeparation.cpp.o[0m
+[3.404s] [ 50%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfMarker3DError.cpp.o[0m
+[4.514s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/FileConnection.cpp:40[m[K:
+[4.514s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:[m[K In member function ‘[01m[Kvirtual int FileConnection::[01;32m[Kwrite[m[K(const char*, int) const[m[K’:
+[4.514s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.515s]    81 |         int write( [01;35m[Kconst char* buffer[m[K, int length ) const { return 0; }
+[4.515s]       |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[4.515s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.516s]    81 |         int write( const char* buffer, [01;35m[Kint length[m[K ) const { return 0; }
+[4.516s]       |                                        [01;35m[K~~~~^~~~~~[m[K
+[4.524s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:[m[K In member function ‘[01m[Kvirtual int FileConnection::[01;32m[Kwrite[m[K(byte_t*, int) const[m[K’:
+[4.525s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.526s]    86 |         int write( [01;35m[Kbyte_t* buffer[m[K, int length ) const { return 0; }
+[4.526s]       |                    [01;35m[K~~~~~~~~^~~~~~[m[K
+[4.526s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.526s]    86 |         int write( byte_t* buffer, [01;35m[Kint length[m[K ) const { return 0; }
+[4.527s]       |                                    [01;35m[K~~~~^~~~~~[m[K
+[4.816s] [ 53%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/GbfSystemAlert.cpp.o[0m
+[5.047s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:[m[K In member function ‘[01m[Kstd::string BufferedReader::[01;32m[KtoString[m[K() const[m[K’:
+[5.054s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:52:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.055s]    52 |     for ( int i = 0; [01;35m[Ki < buffer_.size()[m[K; i++)
+[5.060s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[5.064s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:[m[K In member function ‘[01m[Kvoid BufferedReader::[01;32m[KskipBytes[m[K(int)[m[K’:
+[5.064s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/BufferedReader.cpp:85:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.065s]    85 |     if ([01;35m[KcurrentIndex_ + numBytes >= buffer_.size()[m[K)
+[5.065s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[5.293s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfButton1D.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfButton1D::[01;32m[KtoString[m[K() const[m[K’:
+[5.293s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfButton1D.cpp:70:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.294s]    70 |         for ( int i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[5.294s]       |                          [01;35m[K~~^~~~~~~~~~~~~[m[K
+[5.409s] [ 56%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/MarkerData.cpp.o[0m
+[5.726s] [ 60%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/PortHandleInfo.cpp.o[0m
+[5.763s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData6D.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfData6D::[01;32m[KtoString[m[K() const[m[K’:
+[5.763s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData6D.cpp:82:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Transform>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.764s]    82 |     for ( int i = 0; [01;35m[Ki < toolTransforms.size()[m[K; i++)
+[5.764s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.858s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:[m[K In destructor ‘[01m[Kvirtual GbfFrame::[01;32m[K~GbfFrame[m[K()[m[K’:
+[5.858s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:57:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfFrameDataItem*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.858s]    57 |   for (int i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[5.859s]       |                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[5.869s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:[m[K In member function ‘[01m[Kstd::vector<ToolData> GbfFrame::[01;32m[KgetToolData[m[K() const[m[K’:
+[5.870s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:74:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfFrameDataItem*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.870s]    74 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[5.870s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[5.871s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:77:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfComponent*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.871s]    77 |         for (int c = 0; [01;35m[Kc < data[i]->frameData->components.size()[m[K; c++)
+[5.878s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.878s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:84:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Transform>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.879s]    84 |                 for (int j = 0; [01;35m[Kj < data6D->toolTransforms.size()[m[K; j++)
+[5.879s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.883s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:88:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.887s]    88 |                     for (int t =0; [01;35m[Kt < tools.size()[m[K; t++)
+[5.887s]       |                                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[5.888s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:117:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<short unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.888s]   117 |                 for (int j = 0; [01;35m[Kj < data3D->toolHandles.size()[m[K; j++)
+[5.888s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.889s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:121:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.889s]   121 |                     for (int t = 0; [01;35m[Kt < tools.size()[m[K; t++)
+[5.889s]       |                                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[5.897s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:154:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.897s]   154 |                     for (int t = 0; [01;35m[Kt < tools.size()[m[K; t++)
+[5.897s]       |                                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[5.898s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:158:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtoolExists[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.898s]   158 |                             bool [01;35m[KtoolExists[m[K = false;
+[5.898s]       |                                  [01;35m[K^~~~~~~~~~[m[K
+[5.898s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:188:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.899s]   188 |                 for (int t = 0; [01;35m[Kt < tools.size()[m[K; t++)
+[5.899s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[5.906s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:187:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtoolExists[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.906s]   187 |                 bool [01;35m[KtoolExists[m[K = false;
+[5.906s]       |                      [01;35m[K^~~~~~~~~~[m[K
+[5.907s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfFrame::[01;32m[KtoString[m[K() const[m[K’:
+[5.907s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfFrame.cpp:207:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfFrameDataItem*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.907s]   207 |     for (int i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[5.908s]       |                     [01;35m[K~~^~~~~~~~~~~~~[m[K
+[5.914s] [ 63%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemAlert.cpp.o[0m
+[5.925s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfData3D::[01;32m[KtoString[m[K() const[m[K’:
+[5.925s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:89:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<short unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.926s]    89 |     for (int toolIndex = 0; [01;35m[KtoolIndex < toolHandles.size()[m[K; toolIndex++)
+[5.926s]       |                             [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[5.928s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfData3D.cpp:94:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<MarkerData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.929s]    94 |         for ( int i = 0; [01;35m[Ki < markers[toolIndex].size()[m[K; i++)
+[5.930s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.001s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:[m[K In constructor ‘[01m[KGbfLineSeparation::[01;32m[KGbfLineSeparation[m[K(BufferedReader&, int)[m[K’:
+[6.002s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:66:48:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.002s]    66 |             while ( [01;35m[KlistLineSeparations.size() <= markerIndex[m[K )
+[6.003s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.003s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:51[m[K:
+[6.004s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:[m[K In member function ‘[01m[Kvirtual int UdpSocket::[01;32m[Kwrite[m[K(const char*, int) const[m[K’:
+[6.004s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.007s]   117 |     virtual int write( [01;35m[Kconst char* buffer[m[K, int length ) const { return -1; };
+[6.007s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[6.008s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.008s]   117 |     virtual int write( const char* buffer, [01;35m[Kint length[m[K ) const { return -1; };
+[6.008s]       |                                            [01;35m[K~~~~^~~~~~[m[K
+[6.009s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:[m[K In member function ‘[01m[Kvirtual int UdpSocket::[01;32m[Kwrite[m[K(byte_t*, int) const[m[K’:
+[6.013s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.013s]   120 |     virtual int write( [01;35m[Kbyte_t* buffer[m[K, int length ) const { return -1; };
+[6.014s]       |                        [01;35m[K~~~~~~~~^~~~~~[m[K
+[6.014s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.014s]   120 |     virtual int write( byte_t* buffer, [01;35m[Kint length[m[K ) const { return -1; };
+[6.015s]       |                                        [01;35m[K~~~~^~~~~~[m[K
+[6.015s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:52[m[K:
+[6.015s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:[m[K In member function ‘[01m[Kvirtual int FileConnection::[01;32m[Kwrite[m[K(const char*, int) const[m[K’:
+[6.016s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.026s]    81 |         int write( [01;35m[Kconst char* buffer[m[K, int length ) const { return 0; }
+[6.027s]       |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[6.027s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:81:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.027s]    81 |         int write( const char* buffer, [01;35m[Kint length[m[K ) const { return 0; }
+[6.028s]       |                                        [01;35m[K~~~~^~~~~~[m[K
+[6.031s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:[m[K In member function ‘[01m[Kvirtual int FileConnection::[01;32m[Kwrite[m[K(byte_t*, int) const[m[K’:
+[6.035s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.035s]    86 |         int write( [01;35m[Kbyte_t* buffer[m[K, int length ) const { return 0; }
+[6.035s]       |                    [01;35m[K~~~~~~~~^~~~~~[m[K
+[6.036s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/FileConnection.h:86:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.036s]    86 |         int write( byte_t* buffer, [01;35m[Kint length[m[K ) const { return 0; }
+[6.036s]       |                                    [01;35m[K~~~~^~~~~~[m[K
+[6.037s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfLineSeparation::[01;32m[KtoString[m[K() const[m[K’:
+[6.040s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:87:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<short unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.040s]    87 |     for ( int toolIndex = 0; [01;35m[KtoolIndex < toolHandles.size()[m[K; toolIndex++ )
+[6.041s]       |                              [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.041s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfLineSeparation.cpp:91:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.042s]    91 |         for ( int i = 0; [01;35m[Ki < lineSeparations[toolIndex].size()[m[K; i++ )
+[6.042s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.042s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In member function ‘[01m[Kint CombinedApi::[01;32m[Kconnect[m[K(std::string, Protocol, std::string)[m[K’:
+[6.043s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:73:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcipher[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.043s]    73 | int CombinedApi::connect(std::string hostname, Protocol protocol, [01;35m[Kstd::string cipher[m[K)
+[6.047s]       |                                                                   [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[6.048s] [ 66%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/SystemCRC.cpp.o[0m
+[6.136s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In member function ‘[01m[Kint CombinedApi::[01;32m[KstartStreaming[m[K(std::string, std::string, Protocol, std::string)[m[K’:
+[6.137s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:393:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcipher[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.137s]   393 | int CombinedApi::startStreaming(const std::string cmd, const std::string streamId, Protocol protocol, [01;35m[Kstd::string cipher[m[K)
+[6.138s]       |                                                                                                       [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[6.174s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In member function ‘[01m[Kstd::vector<ToolData> CombinedApi::[01;32m[KgetTrackingDataBX[m[K(uint16_t) const[m[K’:
+[6.175s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:708:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.175s]   708 |     for (int t = 0; [01;35m[Kt < toolDataVector.size()[m[K; t++)
+[6.176s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.186s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In member function ‘[01m[Kstd::vector<ToolData> CombinedApi::[01;32m[KgetTrackingDataBX2[m[K(std::string) const[m[K’:
+[6.187s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:778:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfComponent*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.187s]   778 |     for (int i = 0; [01;35m[Ki < container.components.size()[m[K; i++)
+[6.188s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.209s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In static member function ‘[01m[Kstatic std::string CombinedApi::[01;32m[KgetWarningString[m[K(int)[m[K’:
+[6.209s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:946:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.210s]   946 |     if (warnCode < 0 || [01;35m[KwarnCode >= sizeof(warningStrings)[m[K)
+[6.213s]       |                         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.217s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In static member function ‘[01m[Kstatic std::string CombinedApi::[01;32m[KgetErrorString[m[K(int)[m[K’:
+[6.217s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:958:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.218s]   958 |     if (errorCode < 0 || [01;35m[KerrorCode >= sizeof(errorStrings)[m[K)
+[6.218s]       |                          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.220s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:[m[K In member function ‘[01m[Kint CombinedApi::[01;32m[KconvertGbfFileToText[m[K(char*, char*)[m[K’:
+[6.227s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:1097:65:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kint[m[K’ changes value from ‘[01m[K18446744073709551606[m[K’ to ‘[01m[K-10[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[6.227s]  1097 |                 reader.skipBytes( [01;35m[K0 -( sizeof( uint32_t ) * 2 ) - sizeof( uint16_t)[m[K );
+[6.227s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.228s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/CombinedApi.cpp:1090:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcompType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.228s]  1090 |                 short [01;35m[KcompType[m[K = reader.get_uint16();
+[6.228s]       |                       [01;35m[K^~~~~~~~[m[K
+[6.247s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:[m[K In destructor ‘[01m[Kvirtual GbfContainer::[01;32m[K~GbfContainer[m[K()[m[K’:
+[6.248s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:65:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfComponent*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.248s]    65 |     for ( int i = 0; [01;35m[Ki < components.size()[m[K; i++)
+[6.249s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.260s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:[m[K In member function ‘[01m[Kstd::string GbfContainer::[01;32m[KtoString[m[K() const[m[K’:
+[6.261s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfContainer.cpp:78:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<GbfComponent*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.261s]    78 |     for ( int i = 0; [01;35m[Ki < components.size()[m[K; i++)
+[6.262s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.394s] [ 70%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TcpConnection.cpp.o[0m
+[6.530s] [ 73%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/TlsConnection.cpp.o[0m
+[6.533s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:[m[K In constructor ‘[01m[KGbfMarker3DError::[01;32m[KGbfMarker3DError[m[K(BufferedReader&, int)[m[K’:
+[6.534s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:65:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.534s]    65 |             while ( [01;35m[KlistErrors.size() <= markerIndex[m[K )
+[6.534s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.542s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfMarker3DError::[01;32m[KtoString[m[K() const[m[K’:
+[6.542s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:86:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<short unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.543s]    86 |     for ( int toolIndex = 0; [01;35m[KtoolIndex < toolHandles.size()[m[K; toolIndex++ )
+[6.543s]       |                              [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[6.548s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfMarker3DError.cpp:90:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.549s]    90 |         for ( int i = 0; [01;35m[Ki < errors[toolIndex].size()[m[K; i++ )
+[6.550s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.621s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfSystemAlert.cpp:[m[K In member function ‘[01m[Kvirtual std::string GbfSystemAlert::[01;32m[KtoString[m[K() const[m[K’:
+[6.622s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/GbfSystemAlert.cpp:59:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SystemAlert>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.622s]    59 |     for ( int i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[6.623s]       |                      [01;35m[K~~^~~~~~~~~~~~~[m[K
+[6.642s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:114:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[6.646s]   114 | #pragma warning( disable : 4996)
+[6.646s]       | 
+[6.647s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:115:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[6.650s]   115 | #pragma warning( push )
+[6.651s]       | 
+[6.652s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/TcpConnection.cpp:117:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[6.652s]   117 | #pragma warning( pop )
+[6.652s]       | 
+[6.693s] [ 76%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/ToolData.cpp.o[0m
+[7.022s] [ 80%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/Transform.cpp.o[0m
+[7.050s] [ 83%] [32mBuilding CXX object CMakeFiles/ndi_api.dir/ndi_lib/src/UdpSocket.cpp.o[0m
+[7.374s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:129:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[7.377s]   129 | #pragma warning( disable : 4996)
+[7.378s]       | 
+[7.378s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:130:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[7.379s]   130 | #pragma warning( push )
+[7.381s]       | 
+[7.382s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:134:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[7.382s]   134 | #pragma warning( pop )
+[7.383s]       | 
+[8.734s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:42[m[K:
+[8.735s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:[m[K In member function ‘[01m[Kvirtual int UdpSocket::[01;32m[Kwrite[m[K(const char*, int) const[m[K’:
+[8.736s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.736s]   117 |     virtual int write( [01;35m[Kconst char* buffer[m[K, int length ) const { return -1; };
+[8.737s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[8.737s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:117:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.739s]   117 |     virtual int write( const char* buffer, [01;35m[Kint length[m[K ) const { return -1; };
+[8.739s]       |                                            [01;35m[K~~~~^~~~~~[m[K
+[8.740s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:[m[K In member function ‘[01m[Kvirtual int UdpSocket::[01;32m[Kwrite[m[K(byte_t*, int) const[m[K’:
+[8.740s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.740s]   120 |     virtual int write( [01;35m[Kbyte_t* buffer[m[K, int length ) const { return -1; };
+[8.741s]       |                        [01;35m[K~~~~~~~~^~~~~~[m[K
+[8.741s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/UdpSocket.h:120:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.742s]   120 |     virtual int write( byte_t* buffer, [01;35m[Kint length[m[K ) const { return -1; };
+[8.742s]       |                                        [01;35m[K~~~~^~~~~~[m[K
+[8.749s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:[m[K In member function ‘[01m[Kbool UdpSocket::[01;32m[Kconnect[m[K(const char*, const char*)[m[K’:
+[8.750s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/src/UdpSocket.cpp:75:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khostname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.750s]    75 | bool UdpSocket::connect( [01;35m[Kconst char* hostname[m[K, const char* port )
+[8.751s]       |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[9.278s] [ 86%] [32m[1mLinking CXX static library libndi_api.a[0m
+[9.452s] [ 86%] Built target ndi_api
+[9.513s] [ 90%] [32mBuilding CXX object CMakeFiles/ndi_aurora_raw_node.dir/src/ndi_aurora_raw_node.cpp.o[0m
+[9.538s] [ 93%] [32mBuilding CXX object CMakeFiles/ndi_aurora_publisher.dir/src/ndi_aurora_publisher.cpp.o[0m
+[20.782s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In constructor ‘[01m[KNDIRawPoseNode::[01;32m[KNDIRawPoseNode[m[K()[m[K’:
+[20.784s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:41:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[20.785s]    41 |     if ([01;35m[Ktool_index_ >= enabledTools_.size()[m[K) {
+[20.785s]       |         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.790s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:[m[K In lambda function:
+[20.791s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:62:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[20.791s]    62 |         if ([01;35m[Ktool_index_ >= tools.size()[m[K || tools[tool_index_].transform.isMissing()) {
+[20.791s]       |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[24.421s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In constructor ‘[01m[KNDIRelativePoseNode::[01;32m[KNDIRelativePoseNode[m[K()[m[K’:
+[24.421s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:139:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KNDIRelativePoseNode::file_index_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.422s]   139 |   std::atomic<int> [01;35m[Kfile_index_[m[K;
+[24.422s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[24.423s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:136:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<bool> NDIRelativePoseNode::has_initial_pose_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.423s]   136 |   std::atomic<bool> [01;35m[Khas_initial_pose_[m[K;
+[24.424s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[24.424s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:22:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.424s]    22 |   [01;35m[KNDIRelativePoseNode[m[K()
+[24.425s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[24.425s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:45:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[24.426s]    45 |     if ([01;35m[KenabledTools_.size() <= tool_index[m[K) {
+[24.426s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[24.464s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:[m[K In lambda function:
+[24.464s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:67:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<ToolData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[24.464s]    67 |         if ([01;35m[Ktool_index >= tools.size()[m[K || tools[tool_index].transform.isMissing()) {
+[24.465s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[27.455s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_raw_node.cpp:3[m[K:
+[27.455s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[27.456s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[27.456s]   426 | static const char* [01;35m[KerrorStrings[m[K[] =
+[27.456s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[27.457s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[27.457s]   415 | static const char* [01;35m[KwarningStrings[m[K[] =
+[27.457s]       |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[32.306s] In file included from [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/src/ndi_aurora_publisher.cpp:5[m[K:
+[32.307s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:[m[K At global scope:
+[32.307s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:426:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KerrorStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[32.308s]   426 | static const char* [01;35m[KerrorStrings[m[K[] =
+[32.308s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[32.308s] [01m[K/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node/ndi_lib/include/CombinedApi.h:415:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KwarningStrings[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[32.309s]   415 | static const char* [01;35m[KwarningStrings[m[K[] =
+[32.309s]       |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[32.836s] [ 96%] [32m[1mLinking CXX executable ndi_aurora_raw_node[0m
+[33.547s] [ 96%] Built target ndi_aurora_raw_node
+[36.553s] [100%] [32m[1mLinking CXX executable ndi_aurora_publisher[0m
+[36.922s] [100%] Built target ndi_aurora_publisher
+[36.942s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node -- -j12 -l12
+[36.944s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node
+[36.959s] -- Install configuration: ""
+[36.960s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/libndi_api.a
+[36.962s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher
+[36.966s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher" to ""
+[36.966s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node
+[36.968s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node" to ""
+[36.969s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib
+[36.969s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Connection.h
+[36.969s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfContainer.h
+[36.970s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/DtlsConnection.h
+[36.970s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfComponent.h
+[36.970s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CombinedApi.h
+[36.970s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfFrame.h
+[36.971s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ComConnection.h
+[36.971s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfSystemAlert.h
+[36.971s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfButton1D.h
+[36.971s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfMarker3DError.h
+[36.971s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/MarkerData.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemCRC.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData6D.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/UdpSocket.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CryptoConnection.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ToolData.h
+[36.972s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TlsConnection.h
+[36.973s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemAlert.h
+[36.973s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Transform.h
+[36.973s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/BufferedReader.h
+[36.973s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/FileConnection.h
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData3D.h
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/PortHandleInfo.h
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfLineSeparation.h
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TcpConnection.h
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.sh
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.dsv
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/package_run_dependencies/ndi_aurora_node
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/parent_prefix_path/ndi_aurora_node
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.sh
+[36.974s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.dsv
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.sh
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.dsv
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.bash
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.sh
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.zsh
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.dsv
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/packages/ndi_aurora_node
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport.cmake
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport-noconfig.cmake
+[36.975s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_libraries-extras.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_targets-extras.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig-version.cmake
+[36.976s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.xml
+[36.979s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/ndi_aurora_node

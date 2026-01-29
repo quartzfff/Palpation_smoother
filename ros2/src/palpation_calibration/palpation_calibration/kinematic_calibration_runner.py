@@ -32,17 +32,28 @@ class CalibrationRunner(Node):
         super().__init__('kinematic_calibration_runner')
 
         # -----------------------------
+        # Joint names (CRITICAL)
+        # -----------------------------
+        self.joint_names = [
+            'inner_rotation',
+            'outer_rotation',
+            'inner_translation',
+            'outer_translation',
+            'tool'
+        ]
+
+        # -----------------------------
         # Publishers / Subscribers
         # -----------------------------
         self.jp_pub = self.create_publisher(
             JointState,
-            '/ves/left/joint/servo_jp',
+            '/ves/right/joint/servo_jp',
             10
         )
 
         self.jp_sub = self.create_subscription(
             JointState,
-            '/ves/left/joint/setpoint_jp',
+            '/ves/right/joint/setpoint_jp',
             self.jp_callback,
             10
         )
@@ -127,20 +138,25 @@ class CalibrationRunner(Node):
     # --------------------------------------------------
 
     def jp_callback(self, msg):
-        self.current_joints = msg.position
+        if len(msg.position) != 5:
+            self.get_logger().warn("Received invalid joint state length")
+            return
+        self.current_joints = list(msg.position)
 
     def ndi_callback(self, msg):
         p = msg.pose.position
         q = msg.pose.orientation
 
-        self.current_ndi_pos = np.array([p.x, p.y, p.z])  # mm
+        self.current_ndi_pos = np.array([p.x, p.y, p.z])
         self.current_ndi_quat = quat_to_vec(q)
 
     # --------------------------------------------------
 
     def publish_command(self, q):
         msg = JointState()
-        msg.position = q
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.name = self.joint_names
+        msg.position = list(q)
         self.jp_pub.publish(msg)
 
     # --------------------------------------------------
@@ -212,26 +228,21 @@ class CalibrationRunner(Node):
         if self.current_ndi_pos is None or self.current_joints is None:
             return
 
-        # -------- Stage 1 --------
         if self.stage == 1:
             cmds = self.stage1_cmds
 
-        # -------- Go Home --------
         elif self.stage == 1.5:
             self.publish_command(self.home_cmd)
             if self.is_stable():
                 self.advance_stage()
             return
 
-        # -------- Stage 2 --------
         elif self.stage == 2:
             cmds = self.stage2_cmds
 
-        # -------- Done --------
         else:
             return
 
-        # -------- Command loop --------
         if self.cmd_idx >= len(cmds):
             self.advance_stage()
             return
