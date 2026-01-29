@@ -16,20 +16,14 @@ def quat_to_vec(q):
     return np.array([q.x, q.y, q.z, q.w])
 
 
-def quat_angle(q1, q2):
-    dot = abs(np.dot(q1, q2))
-    dot = np.clip(dot, -1.0, 1.0)
-    return 2.0 * np.arccos(dot) * 180.0 / np.pi
-
-
 # --------------------------------------------------
 # Calibration Runner
 # --------------------------------------------------
 
 class CalibrationRunner(Node):
 
-    DWELL_TIME = 1.0        # seconds
-    MIN_SAMPLES = 5         # minimum samples per pose
+    MOVE_WAIT_TIME = 0.5    # seconds after sending command
+    RECORD_TIME    = 1.0    # seconds to record data
 
     def __init__(self):
         super().__init__('kinematic_calibration_runner')
@@ -75,14 +69,11 @@ class CalibrationRunner(Node):
         self.current_ndi_pos = None
         self.current_ndi_quat = None
 
-        # Per-command tracking
+        # Per-pose timing
         self.cmd_sent = False
-        self.cmd_pose_ref = None
-
-        # Dwell tracking
-        self.in_dwell = False
-        self.dwell_start_time = None
-        self.samples_this_pose = 0
+        self.recording = False
+        self.t_cmd = None
+        self.t_record = None
 
         # -----------------------------
         # Calibration stages
@@ -119,7 +110,7 @@ class CalibrationRunner(Node):
         # -----------------------------
         # Timer
         # -----------------------------
-        self.timer = self.create_timer(0.02, self.update)
+        self.timer = self.create_timer(0.02, self.update)  # 50 Hz
 
     # --------------------------------------------------
 
@@ -156,13 +147,6 @@ class CalibrationRunner(Node):
 
     # --------------------------------------------------
 
-    def motion_stopped(self):
-        dp = np.linalg.norm(self.current_ndi_pos - self.cmd_pose_ref[0])
-        dtheta = quat_angle(self.current_ndi_quat, self.cmd_pose_ref[1])
-        return dp < 0.5 and dtheta < 1.0
-
-    # --------------------------------------------------
-
     def log_sample(self):
         q = self.current_joints
         p = self.current_ndi_pos
@@ -179,15 +163,12 @@ class CalibrationRunner(Node):
         elif self.stage == 2:
             self.writer2.writerow(row)
 
-        self.samples_this_pose += 1
-
     # --------------------------------------------------
 
     def advance_stage(self):
         self.cmd_idx = 0
         self.cmd_sent = False
-        self.in_dwell = False
-        self.samples_this_pose = 0
+        self.recording = False
 
         if self.stage == 1:
             self.get_logger().info("Stage 1 complete → returning home")
@@ -204,10 +185,10 @@ class CalibrationRunner(Node):
     # --------------------------------------------------
 
     def update(self):
-        if self.current_ndi_pos is None or self.current_joints is None:
+        if self.current_joints is None or self.current_ndi_pos is None:
             return
 
-        # ---------- Stage selection ----------
+        # -------- Select command list --------
         if self.stage == 1:
             cmds = self.stage1_cmds
         elif self.stage == 1.5:
@@ -221,40 +202,31 @@ class CalibrationRunner(Node):
             self.advance_stage()
             return
 
-        # ---------- Send command ----------
+        # -------- Send command --------
         if not self.cmd_sent:
             self.publish_command(cmds[self.cmd_idx])
-            self.cmd_pose_ref = (
-                self.current_ndi_pos.copy(),
-                self.current_ndi_quat.copy()
-            )
+            self.t_cmd = time.time()
             self.cmd_sent = True
-            self.in_dwell = False
-            self.samples_this_pose = 0
+            self.recording = False
             return
 
-        # ---------- Wait for stop ----------
-        if not self.in_dwell:
-            if self.motion_stopped():
-                self.in_dwell = True
-                self.dwell_start_time = time.time()
+        # -------- Wait after motion --------
+        if not self.recording:
+            if time.time() - self.t_cmd >= self.MOVE_WAIT_TIME:
+                self.t_record = time.time()
+                self.recording = True
             return
 
-        # ---------- Dwell & log ----------
+        # -------- Record data --------
         self.log_sample()
 
-        if (time.time() - self.dwell_start_time >= self.DWELL_TIME and
-                self.samples_this_pose >= self.MIN_SAMPLES):
-
+        if time.time() - self.t_record >= self.RECORD_TIME:
             self.get_logger().info(
-                f"Stage {self.stage}, pose {self.cmd_idx + 1}: "
-                f"{self.samples_this_pose} samples logged"
+                f"Stage {self.stage}, pose {self.cmd_idx + 1} recorded"
             )
-
             self.cmd_idx += 1
             self.cmd_sent = False
-            self.in_dwell = False
-            self.samples_this_pose = 0
+            self.recording = False
 
 
 # --------------------------------------------------
