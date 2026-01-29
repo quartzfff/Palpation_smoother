@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'calibration_runner = palpation_calibration.kinematic_calibration_runner:main',
         ],
     },
 )

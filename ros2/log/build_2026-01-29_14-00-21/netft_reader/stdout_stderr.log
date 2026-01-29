@@ -1,0 +1,8 @@
+[ 33%] Built target netft_raw_node
+[ 66%] Built target netft_node
+[ 77%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/reach-lab/Palpation_smoother/ros2/src/netft_reader/src/netft_baseraw_node.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/netft_baseraw_node.dir/build.make:76: CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/netft_baseraw_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

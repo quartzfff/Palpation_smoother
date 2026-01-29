@@ -1,0 +1,60 @@
+[0.002s] Invoking command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/reach-lab/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/sync_logger_node
+[0.026s] -- The C compiler identification is GNU 13.3.0
+[0.050s] -- The CXX compiler identification is GNU 13.3.0
+[0.057s] -- Detecting C compiler ABI info
+[0.092s] -- Detecting C compiler ABI info - done
+[0.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.097s] -- Detecting C compile features
+[0.097s] -- Detecting C compile features - done
+[0.101s] -- Detecting CXX compiler ABI info
+[0.146s] -- Detecting CXX compiler ABI info - done
+[0.151s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.152s] -- Detecting CXX compile features
+[0.152s] -- Detecting CXX compile features - done
+[0.153s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.269s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.285s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.291s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.368s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.376s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.421s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.429s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.445s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.459s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.504s] -- Configuring done (0.5s)
+[0.509s] -- Generating done (0.0s)
+[0.511s] -- Build files have been written to: /home/reach-lab/Palpation_smoother/build/sync_logger_node
+[0.517s] Invoked command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/reach-lab/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/sync_logger_node
+[0.517s] Invoking command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/sync_logger_node -- -j12 -l12
+[0.537s] [ 50%] [32mBuilding CXX object CMakeFiles/sync_logger_node.dir/src/sync_logger_node.cpp.o[0m
+[6.313s] [100%] [32m[1mLinking CXX executable sync_logger_node[0m
+[6.484s] [100%] Built target sync_logger_node
+[6.491s] Invoked command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/sync_logger_node -- -j12 -l12
+[6.492s] Invoking command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/build/sync_logger_node
+[6.495s] -- Install configuration: ""
+[6.495s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/lib/sync_logger_node/sync_logger_node
+[6.497s] -- Set non-toolchain portion of runtime path of "/home/reach-lab/Palpation_smoother/install/sync_logger_node/lib/sync_logger_node/sync_logger_node" to ""
+[6.497s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node//launch
+[6.497s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node//launch/multi_sensor_logger_launch.py
+[6.497s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/ament_index/resource_index/package_run_dependencies/sync_logger_node
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/ament_index/resource_index/parent_prefix_path/sync_logger_node
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.sh
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/environment/ament_prefix_path.dsv
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/environment/path.sh
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/environment/path.dsv
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/local_setup.bash
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/local_setup.sh
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/local_setup.zsh
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/local_setup.dsv
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.dsv
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/ament_index/resource_index/packages/sync_logger_node
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig.cmake
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/cmake/sync_logger_nodeConfig-version.cmake
+[6.498s] -- Installing: /home/reach-lab/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.xml
+[6.499s] Invoked command in '/home/reach-lab/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node:/home/reach-lab/Palpation_smoother/ros2/install/sync_logger_node:/home/reach-lab/Palpation_smoother/ros2/install/netft_reader:/home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/reach-lab/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/build/sync_logger_node

@@ -1,0 +1,60 @@
+[0.009s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node -- -j12 -l12
+[0.037s] [ 86%] Built target ndi_api
+[0.050s] [100%] Built target ndi_aurora_raw_node
+[0.051s] [100%] Built target ndi_aurora_publisher
+[0.112s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node -- -j12 -l12
+[0.116s] Invoking command in '/home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node
+[0.119s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/libndi_api.a
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_publisher
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/lib/ndi_aurora_node/ndi_aurora_raw_node
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/DtlsConnection.h
+[0.119s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ComConnection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfFrame.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/BufferedReader.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfComponent.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CombinedApi.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfMarker3DError.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfButton1D.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Connection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemAlert.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/CryptoConnection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/MarkerData.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/ToolData.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/UdpSocket.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfSystemAlert.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/FileConnection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/SystemCRC.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TcpConnection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfContainer.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData3D.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfLineSeparation.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/PortHandleInfo.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/GbfData6D.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/Transform.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/include/ndi_lib/TlsConnection.h
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.sh
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/library_path.dsv
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/package_run_dependencies/ndi_aurora_node
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/parent_prefix_path/ndi_aurora_node
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.sh
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.sh
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/environment/path.dsv
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.bash
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.sh
+[0.120s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.zsh
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/local_setup.dsv
+[0.121s] -- Installing: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ament_index/resource_index/packages/ndi_aurora_node
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/export_ndi_aurora_nodeExport-noconfig.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_libraries-extras.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ament_cmake_export_targets-extras.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/cmake/ndi_aurora_nodeConfig-version.cmake
+[0.121s] -- Up-to-date: /home/reach-lab/Palpation_smoother/ros2/install/ndi_aurora_node/share/ndi_aurora_node/package.xml
+[0.121s] Invoked command in '/home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reach-lab/Palpation_smoother/ros2/install/palpation_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/reach-lab/Palpation_smoother/ros2/build/ndi_aurora_node

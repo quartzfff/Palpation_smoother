@@ -1,0 +1,3 @@
+[ 33%] Built target netft_raw_node
+[ 66%] Built target netft_node
+[ 77%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o[0m

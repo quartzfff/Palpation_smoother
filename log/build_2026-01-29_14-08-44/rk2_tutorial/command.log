@@ -1,0 +1,4 @@
+Invoking command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/rk2_tutorial
+Invoked command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/rk2_tutorial
+Invoking command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
+Invoked command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/rk2_tutorial -- -j12 -l12

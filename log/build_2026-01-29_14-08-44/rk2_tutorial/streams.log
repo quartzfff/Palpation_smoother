@@ -1,0 +1,46 @@
+[0.111s] Invoking command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/rk2_tutorial
+[0.138s] -- The CXX compiler identification is GNU 13.3.0
+[0.145s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.249s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.70") found components: serialization filesystem thread program_options date_time timer chrono regex 
+[0.250s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[0.250s] -- Configuring done (0.1s)
+[0.257s] -- Generating done (0.0s)
+[0.258s] -- Build files have been written to: /home/reach-lab/Palpation_smoother/build/rk2_tutorial
+[0.260s] Invoked command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reach-lab/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/reach-lab/Palpation_smoother/install/rk2_tutorial
+[0.261s] Invoking command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
+[0.281s] [ 14%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/main_gtsam_bias.cpp.o[0m
+[0.281s] [ 14%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/main.cpp.o[0m
+[0.281s] [ 14%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/Compliance.cpp.o[0m
+[0.282s] [ 14%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/main_gtsam.cpp.o[0m
+[0.282s] [ 18%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/CosseratSolver.cpp.o[0m
+[0.282s] [ 22%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CsvLoader.cpp.o[0m
+[0.282s] [ 25%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/RobotArmModel.cpp.o[0m
+[0.282s] [ 29%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/RobotArmModel.cpp.o[0m
+[0.282s] [ 33%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/RobotArmModel.cpp.o[0m
+[0.283s] [ 37%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/Compliance.cpp.o[0m
+[0.284s] [ 40%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CosseratSolver.cpp.o[0m
+[0.285s] [ 44%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/main_calibration.cpp.o[0m
+[1.754s] [ 48%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/StaticsEvaluation.cpp.o[0m
+[1.777s] [ 51%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CsvLoader.cpp.o[0m
+[2.132s] [ 55%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/RobotArmModel.cpp.o[0m
+[2.155s] [ 59%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/CosseratSolver.cpp.o[0m
+[2.224s] [ 62%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/StaticsEvaluation.cpp.o[0m
+[2.240s] [ 66%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CosseratSolver.cpp.o[0m
+[2.322s] [ 70%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/StaticsEvaluation.cpp.o[0m
+[2.734s] [ 74%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/Compliance.cpp.o[0m
+[2.942s] [ 77%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/Compliance.cpp.o[0m
+[3.635s] [ 81%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/TipPoseTangentCalibrationFactors.cpp.o[0m
+[3.707s] [ 85%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/StaticsEvaluation.cpp.o[0m
+[3.772s] [ 88%] [32m[1mLinking CXX executable test_fk[0m
+[3.995s] [ 88%] Built target test_fk
+[6.865s] [ 92%] [32m[1mLinking CXX executable main_calibration[0m
+[7.009s] [ 92%] Built target main_calibration
+[9.629s] [ 96%] [32m[1mLinking CXX executable main_gtsam[0m
+[9.730s] [ 96%] Built target main_gtsam
+[9.915s] [100%] [32m[1mLinking CXX executable main_gtsam_bias[0m
+[10.015s] [100%] Built target main_gtsam_bias
+[10.022s] Invoked command in '/home/reach-lab/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reach-lab/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
