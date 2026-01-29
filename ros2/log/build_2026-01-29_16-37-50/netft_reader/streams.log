@@ -1,0 +1,30 @@
+[0.028s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[0.200s] [100%] Built target netft_baseraw_node
+[0.200s] [100%] Built target netft_node
+[0.200s] [100%] Built target netft_raw_node
+[0.484s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/ros2/build/netft_reader -- -j12 -l12
+[0.505s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/netft_reader
+[0.523s] -- Install configuration: ""
+[0.523s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node
+[0.523s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node
+[0.524s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node
+[0.525s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include
+[0.525s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader
+[0.525s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h
+[0.526s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+[0.526s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+[0.526s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+[0.527s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+[0.527s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+[0.528s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh
+[0.528s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv
+[0.529s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash
+[0.529s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh
+[0.530s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh
+[0.530s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv
+[0.530s] -- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv
+[0.531s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+[0.531s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+[0.532s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+[0.532s] -- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml
+[0.548s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/ros2/build/netft_reader

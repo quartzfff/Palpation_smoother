@@ -1,0 +1,26 @@
+[100%] Built target netft_baseraw_node
+[100%] Built target netft_node
+[100%] Built target netft_raw_node
+-- Install configuration: ""
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_node
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_raw_node
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/lib/netft_reader/netft_baseraw_node
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_utils.h
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.sh
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/environment/path.dsv
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.bash
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.sh
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.zsh
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/local_setup.dsv
+-- Installing: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.dsv
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+-- Up-to-date: /home/yufei/code/Palpation_smoother/ros2/install/netft_reader/share/netft_reader/package.xml
