@@ -1,0 +1,41 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yufei/code/Palpation_smoother/build/rk2_tutorial
+[  3%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/CosseratSolver.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/RobotArmModel.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CsvLoader.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/RobotArmModel.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/Compliance.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/main_gtsam.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/StaticsEvaluation.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CosseratSolver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/main_gtsam_bias.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/main_calibration.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/main.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/RobotArmModel.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/Compliance.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/RobotArmModel.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/StaticsEvaluation.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/CosseratSolver.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CsvLoader.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/StaticsEvaluation.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CosseratSolver.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/Compliance.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_fk[0m
+[ 77%] Built target test_fk
+[ 81%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/TipPoseTangentCalibrationFactors.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable main_calibration[0m
+[ 85%] Built target main_calibration
+[ 88%] [32m[1mLinking CXX executable main_gtsam[0m
+[ 88%] Built target main_gtsam
+[ 92%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/StaticsEvaluation.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/Compliance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main_gtsam_bias[0m
+[100%] Built target main_gtsam_bias

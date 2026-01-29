@@ -1,0 +1,399 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x793334a9e180>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793334bc6870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793334bc6870>>, mixin_verb=('build',))
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.246s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yufei/code/Palpation_smoother'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(cpp) by extension 'python'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp' with type 'cmake' and name 'rk2_tutorial'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/build) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/build) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/install) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/log) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/install) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/install) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/log) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/ndi_aurora_node) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/ndi_aurora_node' with type 'ros.ament_cmake' and name 'ndi_aurora_node'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/netft_reader) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/netft_reader' with type 'ros.ament_cmake' and name 'netft_reader'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/palpation_calibration) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/palpation_calibration' with type 'ros.ament_python' and name 'palpation_calibration'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/sync_logger_node) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/sync_logger_node' with type 'ros.ament_cmake' and name 'sync_logger_node'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yufei/code/Palpation_smoother/ros2/install
+[0.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/yufei/palpation_ws/install
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 300 installed packages in /opt/ros/jazzy
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'ndi_aurora_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'ndi_aurora_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node', 'merge_install': False, 'path': '/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'netft_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'netft_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yufei/code/Palpation_smoother/build/netft_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yufei/code/Palpation_smoother/install/netft_reader', 'merge_install': False, 'path': '/home/yufei/code/Palpation_smoother/ros2/src/netft_reader', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'palpation_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'palpation_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yufei/code/Palpation_smoother/build/palpation_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yufei/code/Palpation_smoother/install/palpation_calibration', 'merge_install': False, 'path': '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'rk2_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'rk2_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yufei/code/Palpation_smoother/build/rk2_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yufei/code/Palpation_smoother/install/rk2_tutorial', 'merge_install': False, 'path': '/home/yufei/code/Palpation_smoother/cpp', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sync_logger_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'sync_logger_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yufei/code/Palpation_smoother/build/sync_logger_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yufei/code/Palpation_smoother/install/sync_logger_node', 'merge_install': False, 'path': '/home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node', 'symlink_install': False, 'test_result_base': None}
+[0.436s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node' with build type 'ament_cmake'
+[0.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node'
+[0.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yufei/code/Palpation_smoother/ros2/src/netft_reader' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yufei/code/Palpation_smoother/ros2/src/netft_reader'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration' with build type 'ament_python'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('palpation_calibration', 'ament_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/ament_prefix_path.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/ament_prefix_path.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/ament_prefix_path.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yufei/code/Palpation_smoother/cpp'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/netft_reader
+[1.234s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration'
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/rk2_tutorial
+[1.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/rk2_tutorial
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
+[6.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yufei/code/Palpation_smoother/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/palpation_calibration build --build-base /home/yufei/code/Palpation_smoother/build/palpation_calibration/build install --record /home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log --single-version-externally-managed install_data
+[10.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/ndi_aurora_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node
+[10.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/ndi_aurora_node -- -j12 -l12
+[13.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/netft_reader
+[13.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/netft_reader -- -j12 -l12
+[15.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yufei/code/Palpation_smoother/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/palpation_calibration build --build-base /home/yufei/code/Palpation_smoother/build/palpation_calibration/build install --record /home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log --single-version-externally-managed install_data
+[15.438s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration' for CMake module files
+[15.458s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration' for CMake config files
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib'
+[15.485s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration/bin'
+[15.485s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/pkgconfig/palpation_calibration.pc'
+[15.487s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages'
+[15.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('palpation_calibration', 'pythonpath')
+[15.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/pythonpath.ps1'
+[15.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/pythonpath.dsv'
+[15.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/hook/pythonpath.sh'
+[15.570s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/palpation_calibration/bin'
+[15.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(palpation_calibration)
+[15.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/package.ps1'
+[15.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/package.dsv'
+[15.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/package.sh'
+[15.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/package.bash'
+[15.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/palpation_calibration/package.zsh'
+[15.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/palpation_calibration/share/colcon-core/packages/palpation_calibration)
+[65.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/netft_reader -- -j12 -l12
+[65.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/netft_reader
+[65.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(netft_reader)
+[65.917s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader' for CMake module files
+[65.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/netft_reader
+[65.920s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader' for CMake config files
+[65.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('netft_reader', 'cmake_prefix_path')
+[65.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.ps1'
+[65.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.dsv'
+[65.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.sh'
+[65.928s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib'
+[65.928s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/bin'
+[65.929s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib/pkgconfig/netft_reader.pc'
+[65.930s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib/python3.12/site-packages'
+[65.930s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/bin'
+[65.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.ps1'
+[65.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.dsv'
+[65.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.sh'
+[65.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.bash'
+[65.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.zsh'
+[65.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/netft_reader/share/colcon-core/packages/netft_reader)
+[65.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(netft_reader)
+[65.941s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader' for CMake module files
+[65.943s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader' for CMake config files
+[65.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('netft_reader', 'cmake_prefix_path')
+[65.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.ps1'
+[65.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.dsv'
+[65.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/hook/cmake_prefix_path.sh'
+[65.950s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib'
+[65.950s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/bin'
+[65.951s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib/pkgconfig/netft_reader.pc'
+[65.952s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/lib/python3.12/site-packages'
+[65.952s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/netft_reader/bin'
+[65.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.ps1'
+[65.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.dsv'
+[65.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.sh'
+[65.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.bash'
+[65.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.zsh'
+[65.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/netft_reader/share/colcon-core/packages/netft_reader)
+[79.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/ndi_aurora_node -- -j12 -l12
+[79.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/ndi_aurora_node
+[80.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ndi_aurora_node)
+[80.055s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node' for CMake module files
+[80.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/ndi_aurora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/ndi_aurora_node
+[80.059s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node' for CMake config files
+[80.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndi_aurora_node', 'cmake_prefix_path')
+[80.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.ps1'
+[80.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.dsv'
+[80.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.sh'
+[80.065s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib'
+[80.066s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/bin'
+[80.066s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib/pkgconfig/ndi_aurora_node.pc'
+[80.067s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib/python3.12/site-packages'
+[80.068s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/bin'
+[80.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.ps1'
+[80.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv'
+[80.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.sh'
+[80.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.bash'
+[80.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.zsh'
+[80.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/colcon-core/packages/ndi_aurora_node)
+[80.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ndi_aurora_node)
+[80.076s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node' for CMake module files
+[80.078s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node' for CMake config files
+[80.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('ndi_aurora_node', 'cmake_prefix_path')
+[80.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.ps1'
+[80.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.dsv'
+[80.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/hook/cmake_prefix_path.sh'
+[80.084s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib'
+[80.084s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/bin'
+[80.084s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib/pkgconfig/ndi_aurora_node.pc'
+[80.085s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib/python3.12/site-packages'
+[80.086s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/bin'
+[80.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.ps1'
+[80.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.dsv'
+[80.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.sh'
+[80.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.bash'
+[80.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/ndi_aurora_node/package.zsh'
+[80.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/share/colcon-core/packages/ndi_aurora_node)
+[80.095s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node' with build type 'ament_cmake'
+[80.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node'
+[80.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[80.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[80.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/sync_logger_node
+[83.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/sync_logger_node -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/sync_logger_node
+[83.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/sync_logger_node -- -j12 -l12
+[84.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
+[84.345s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'rk2_tutorial' because it has no 'install' target
+[84.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rk2_tutorial)
+[84.345s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial' for CMake module files
+[84.346s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial' for CMake config files
+[84.347s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/bin'
+[84.347s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/lib/pkgconfig/rk2_tutorial.pc'
+[84.348s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/lib/python3.12/site-packages'
+[84.348s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/bin'
+[84.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/rk2_tutorial/package.ps1'
+[84.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/rk2_tutorial/package.dsv'
+[84.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/rk2_tutorial/package.sh'
+[84.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/rk2_tutorial/package.bash'
+[84.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/rk2_tutorial/package.zsh'
+[84.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/rk2_tutorial/share/colcon-core/packages/rk2_tutorial)
+[107.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/sync_logger_node -- -j12 -l12
+[107.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/sync_logger_node
+[107.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sync_logger_node)
+[107.913s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node' for CMake module files
+[107.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yufei/code/Palpation_smoother/build/sync_logger_node' returned '0': AMENT_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node:/home/yufei/code/Palpation_smoother/ros2/install/sync_logger_node:/home/yufei/code/Palpation_smoother/ros2/install/netft_reader:/home/yufei/code/Palpation_smoother/ros2/install/ndi_aurora_node:/home/yufei/palpation_ws/install/sync_logger_node:/home/yufei/palpation_ws/install/netft_reader:/home/yufei/palpation_ws/install/ndi_aurora_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yufei/code/Palpation_smoother/install/ndi_aurora_node/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/sync_logger_node
+[107.915s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node' for CMake config files
+[107.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('sync_logger_node', 'cmake_prefix_path')
+[107.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.ps1'
+[107.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.dsv'
+[107.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.sh'
+[107.920s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib'
+[107.920s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/bin'
+[107.920s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib/pkgconfig/sync_logger_node.pc'
+[107.921s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib/python3.12/site-packages'
+[107.922s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/bin'
+[107.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.ps1'
+[107.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.dsv'
+[107.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.sh'
+[107.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.bash'
+[107.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.zsh'
+[107.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/colcon-core/packages/sync_logger_node)
+[107.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sync_logger_node)
+[107.929s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node' for CMake module files
+[107.930s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node' for CMake config files
+[107.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('sync_logger_node', 'cmake_prefix_path')
+[107.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.ps1'
+[107.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.dsv'
+[107.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/hook/cmake_prefix_path.sh'
+[107.934s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib'
+[107.935s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/bin'
+[107.935s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib/pkgconfig/sync_logger_node.pc'
+[107.935s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/lib/python3.12/site-packages'
+[107.936s] Level 1:colcon.colcon_core.environment:checking '/home/yufei/code/Palpation_smoother/install/sync_logger_node/bin'
+[107.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.ps1'
+[107.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.dsv'
+[107.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.sh'
+[107.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.bash'
+[107.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/sync_logger_node/package.zsh'
+[107.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yufei/code/Palpation_smoother/install/sync_logger_node/share/colcon-core/packages/sync_logger_node)
+[107.942s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[107.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[107.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[107.944s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[107.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[107.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[107.959s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[108.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[108.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yufei/code/Palpation_smoother/install/local_setup.ps1'
+[108.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yufei/code/Palpation_smoother/install/_local_setup_util_ps1.py'
+[108.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yufei/code/Palpation_smoother/install/setup.ps1'
+[108.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yufei/code/Palpation_smoother/install/local_setup.sh'
+[108.019s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yufei/code/Palpation_smoother/install/_local_setup_util_sh.py'
+[108.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yufei/code/Palpation_smoother/install/setup.sh'
+[108.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yufei/code/Palpation_smoother/install/local_setup.bash'
+[108.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yufei/code/Palpation_smoother/install/setup.bash'
+[108.026s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yufei/code/Palpation_smoother/install/local_setup.zsh'
+[108.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yufei/code/Palpation_smoother/install/setup.zsh'

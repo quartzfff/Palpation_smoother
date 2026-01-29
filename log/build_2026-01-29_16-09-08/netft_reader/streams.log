@@ -1,0 +1,74 @@
+[0.040s] Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/netft_reader
+[0.816s] -- The C compiler identification is GNU 13.3.0
+[0.816s] -- The CXX compiler identification is GNU 13.3.0
+[0.818s] -- Detecting C compiler ABI info
+[0.820s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.823s] -- Detecting C compile features - done
+[0.824s] -- Detecting CXX compiler ABI info
+[0.956s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.991s] -- Detecting CXX compile features
+[0.992s] -- Detecting CXX compile features - done
+[1.006s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.422s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.928s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.150s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.240s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.615s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.663s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.794s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.144s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.304s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[8.090s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[9.716s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system 
+[11.569s] -- Configuring done (11.5s)
+[12.141s] -- Generating done (0.4s)
+[12.345s] -- Build files have been written to: /home/yufei/code/Palpation_smoother/build/netft_reader
+[12.600s] Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/ros2/src/netft_reader -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/netft_reader
+[12.628s] Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/netft_reader -- -j12 -l12
+[13.240s] [ 11%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_baseraw_node.cpp.o[0m
+[13.243s] [ 22%] [32mBuilding CXX object CMakeFiles/netft_baseraw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[13.477s] [ 33%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_raw_node.cpp.o[0m
+[13.478s] [ 44%] [32mBuilding CXX object CMakeFiles/netft_raw_node.dir/src/netft_rdt_driver.cpp.o[0m
+[13.546s] [ 55%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o[0m
+[13.618s] [ 66%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_rdt_driver.cpp.o[0m
+[59.331s] [ 77%] [32m[1mLinking CXX executable netft_baseraw_node[0m
+[60.475s] [ 77%] Built target netft_baseraw_node
+[62.086s] [ 88%] [32m[1mLinking CXX executable netft_raw_node[0m
+[62.790s] [ 88%] Built target netft_raw_node
+[64.280s] [100%] [32m[1mLinking CXX executable netft_node[0m
+[65.321s] [100%] Built target netft_node
+[65.360s] Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/netft_reader -- -j12 -l12
+[65.394s] Invoking command in '/home/yufei/code/Palpation_smoother/build/netft_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/netft_reader
+[65.415s] -- Install configuration: ""
+[65.416s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_node
+[65.430s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_node" to ""
+[65.430s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_raw_node
+[65.438s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_raw_node" to ""
+[65.439s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_baseraw_node
+[65.448s] -- Set non-toolchain portion of runtime path of "/home/yufei/code/Palpation_smoother/install/netft_reader/lib/netft_reader/netft_baseraw_node" to ""
+[65.449s] -- Up-to-date: /home/yufei/code/Palpation_smoother/install/netft_reader/include
+[65.449s] -- Up-to-date: /home/yufei/code/Palpation_smoother/install/netft_reader/include/netft_reader
+[65.449s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/include/netft_reader/netft_utils.h
+[65.450s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/include/netft_reader/netft_rdt_driver.h
+[65.451s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/ament_index/resource_index/package_run_dependencies/netft_reader
+[65.452s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/ament_index/resource_index/parent_prefix_path/netft_reader
+[65.453s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/environment/ament_prefix_path.sh
+[65.456s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/environment/ament_prefix_path.dsv
+[65.456s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/environment/path.sh
+[65.457s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/environment/path.dsv
+[65.458s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/local_setup.bash
+[65.458s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/local_setup.sh
+[65.459s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/local_setup.zsh
+[65.459s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/local_setup.dsv
+[65.460s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.dsv
+[65.460s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/ament_index/resource_index/packages/netft_reader
+[65.461s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/cmake/netft_readerConfig.cmake
+[65.461s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/cmake/netft_readerConfig-version.cmake
+[65.461s] -- Installing: /home/yufei/code/Palpation_smoother/install/netft_reader/share/netft_reader/package.xml
+[65.468s] Invoked command in '/home/yufei/code/Palpation_smoother/build/netft_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yufei/code/Palpation_smoother/ros2/install/palpation_calibration:/home/yufei/palpation_ws/install/ves_kinematic_calibration:/home/yufei/palpation_ws/install/sync_logger_py:/home/yufei/palpation_ws/install/palpation_force_pub:/home/yufei/palpation_ws/install/palpation_force_calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yufei/code/Palpation_smoother/build/netft_reader

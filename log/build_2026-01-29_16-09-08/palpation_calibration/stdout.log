@@ -1,0 +1,28 @@
+running egg_info
+creating ../../../build/palpation_calibration/palpation_calibration.egg-info
+writing ../../../build/palpation_calibration/palpation_calibration.egg-info/PKG-INFO
+writing dependency_links to ../../../build/palpation_calibration/palpation_calibration.egg-info/dependency_links.txt
+writing entry points to ../../../build/palpation_calibration/palpation_calibration.egg-info/entry_points.txt
+writing requirements to ../../../build/palpation_calibration/palpation_calibration.egg-info/requires.txt
+writing top-level names to ../../../build/palpation_calibration/palpation_calibration.egg-info/top_level.txt
+writing manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+reading manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+writing manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build
+creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib
+creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+copying palpation_calibration/__init__.py -> /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+copying palpation_calibration/kinematic_calibration_runner.py -> /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+running install
+running install_lib
+copying /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration/kinematic_calibration_runner.py -> /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration
+byte-compiling /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration/kinematic_calibration_runner.py to kinematic_calibration_runner.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../../build/palpation_calibration/palpation_calibration.egg-info to /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info
+running install_scripts
+Installing calibration_runner script to /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/palpation_calibration
+writing list of installed files to '/home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log'

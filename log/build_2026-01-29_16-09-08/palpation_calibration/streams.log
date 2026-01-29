@@ -1,0 +1,30 @@
+[5.787s] Invoking command in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yufei/code/Palpation_smoother/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/palpation_calibration build --build-base /home/yufei/code/Palpation_smoother/build/palpation_calibration/build install --record /home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log --single-version-externally-managed install_data
+[10.457s] running egg_info
+[10.458s] creating ../../../build/palpation_calibration/palpation_calibration.egg-info
+[10.941s] writing ../../../build/palpation_calibration/palpation_calibration.egg-info/PKG-INFO
+[10.959s] writing dependency_links to ../../../build/palpation_calibration/palpation_calibration.egg-info/dependency_links.txt
+[10.960s] writing entry points to ../../../build/palpation_calibration/palpation_calibration.egg-info/entry_points.txt
+[10.964s] writing requirements to ../../../build/palpation_calibration/palpation_calibration.egg-info/requires.txt
+[10.977s] writing top-level names to ../../../build/palpation_calibration/palpation_calibration.egg-info/top_level.txt
+[10.979s] writing manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[12.035s] reading manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[12.043s] writing manifest file '../../../build/palpation_calibration/palpation_calibration.egg-info/SOURCES.txt'
+[12.043s] running build
+[12.044s] running build_py
+[12.048s] creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build
+[12.054s] creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib
+[12.059s] creating /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+[12.059s] copying palpation_calibration/__init__.py -> /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+[12.063s] copying palpation_calibration/kinematic_calibration_runner.py -> /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration
+[12.064s] running install
+[12.167s] running install_lib
+[12.475s] copying /home/yufei/code/Palpation_smoother/build/palpation_calibration/build/lib/palpation_calibration/kinematic_calibration_runner.py -> /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration
+[12.475s] byte-compiling /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration/kinematic_calibration_runner.py to kinematic_calibration_runner.cpython-312.pyc
+[12.489s] running install_data
+[12.490s] running install_egg_info
+[12.632s] removing '/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info' (and everything under it)
+[12.633s] Copying ../../../build/palpation_calibration/palpation_calibration.egg-info to /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages/palpation_calibration-0.0.0-py3.12.egg-info
+[12.634s] running install_scripts
+[14.258s] Installing calibration_runner script to /home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/palpation_calibration
+[14.259s] writing list of installed files to '/home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log'
+[14.919s] Invoked command in '/home/yufei/code/Palpation_smoother/ros2/src/palpation_calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yufei/code/Palpation_smoother/build/palpation_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yufei/code/Palpation_smoother/install/palpation_calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/palpation_calibration build --build-base /home/yufei/code/Palpation_smoother/build/palpation_calibration/build install --record /home/yufei/code/Palpation_smoother/build/palpation_calibration/install.log --single-version-externally-managed install_data

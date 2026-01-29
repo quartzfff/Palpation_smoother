@@ -1,0 +1,45 @@
+[0.812s] Invoking command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/rk2_tutorial
+[1.017s] -- The CXX compiler identification is GNU 13.3.0
+[1.067s] -- Detecting CXX compiler ABI info
+[1.357s] -- Detecting CXX compiler ABI info - done
+[1.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.390s] -- Detecting CXX compile features
+[1.392s] -- Detecting CXX compile features - done
+[1.424s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[1.426s] -- Configuring done (0.6s)
+[1.454s] -- Generating done (0.0s)
+[1.462s] -- Build files have been written to: /home/yufei/code/Palpation_smoother/build/rk2_tutorial
+[1.469s] Invoked command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yufei/code/Palpation_smoother/cpp -DCMAKE_INSTALL_PREFIX=/home/yufei/code/Palpation_smoother/install/rk2_tutorial
+[1.472s] Invoking command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
+[1.622s] [  3%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/CosseratSolver.cpp.o[0m
+[1.622s] [  7%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/RobotArmModel.cpp.o[0m
+[1.623s] [ 11%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CsvLoader.cpp.o[0m
+[1.625s] [ 14%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/RobotArmModel.cpp.o[0m
+[1.634s] [ 18%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/Compliance.cpp.o[0m
+[1.636s] [ 22%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/main_gtsam.cpp.o[0m
+[1.638s] [ 25%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/StaticsEvaluation.cpp.o[0m
+[1.642s] [ 29%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/CosseratSolver.cpp.o[0m
+[1.653s] [ 33%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/main_gtsam_bias.cpp.o[0m
+[1.658s] [ 37%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/main_calibration.cpp.o[0m
+[1.671s] [ 40%] [32mBuilding CXX object CMakeFiles/test_fk.dir/src/main.cpp.o[0m
+[1.688s] [ 44%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/RobotArmModel.cpp.o[0m
+[14.980s] [ 48%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/Compliance.cpp.o[0m
+[15.211s] [ 51%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/RobotArmModel.cpp.o[0m
+[20.550s] [ 55%] [32mBuilding CXX object CMakeFiles/main_gtsam.dir/src/StaticsEvaluation.cpp.o[0m
+[21.568s] [ 59%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/CosseratSolver.cpp.o[0m
+[22.060s] [ 62%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CsvLoader.cpp.o[0m
+[23.444s] [ 66%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/StaticsEvaluation.cpp.o[0m
+[25.044s] [ 70%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/CosseratSolver.cpp.o[0m
+[25.698s] [ 74%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/Compliance.cpp.o[0m
+[26.398s] [ 77%] [32m[1mLinking CXX executable test_fk[0m
+[26.978s] [ 77%] Built target test_fk
+[50.503s] [ 81%] [32mBuilding CXX object CMakeFiles/main_calibration.dir/src/TipPoseTangentCalibrationFactors.cpp.o[0m
+[68.339s] [ 85%] [32m[1mLinking CXX executable main_calibration[0m
+[68.853s] [ 85%] Built target main_calibration
+[75.257s] [ 88%] [32m[1mLinking CXX executable main_gtsam[0m
+[75.847s] [ 88%] Built target main_gtsam
+[77.452s] [ 92%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/StaticsEvaluation.cpp.o[0m
+[80.388s] [ 96%] [32mBuilding CXX object CMakeFiles/main_gtsam_bias.dir/src/Compliance.cpp.o[0m
+[83.343s] [100%] [32m[1mLinking CXX executable main_gtsam_bias[0m
+[83.848s] [100%] Built target main_gtsam_bias
+[83.878s] Invoked command in '/home/yufei/code/Palpation_smoother/build/rk2_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yufei/code/Palpation_smoother/build/rk2_tutorial -- -j12 -l12
